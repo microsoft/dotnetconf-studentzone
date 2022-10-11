@@ -86,13 +86,11 @@
         "ms-vscode.vscode-node-azure-pack",
         "VisualStudioExptTeam.vscodeintellicode",
         // .NET Interactive
-        "ms-dotnettools.csharp",
         "ms-dotnettools.dotnet-interactive-vscode",
         "ms-python.python",
         "ms-toolsai.jupyter",
         "ms-toolsai.jupyter-keymap",
         "ms-toolsai.jupyter-renderers",
-        "ms-vscode.powershell",
         "RandomFractalsInc.vscode-data-table"
       ],
       "settings": {

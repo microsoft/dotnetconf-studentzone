@@ -6,6 +6,7 @@ This is a Blazor WebAssembly (WASM) app tracking water consumptions.
 ## Prerequisites ##
 
 * [.NET SDK 6.0.402+](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+* [PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)
 * [Bicep CLI](https://learn.microsoft.com/azure/azure-resource-manager/bicep/install)
 * [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli)
 * [GitHub CLI](https://cli.github.com/manual/installation)

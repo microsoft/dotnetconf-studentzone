@@ -1,4 +1,4 @@
-# Ace your next assugnment with .NET
+# Next Steps: Getting Top Marks for your next assignment
 
 This session will require Viasual Studio, therefore will be running only on Windows
 

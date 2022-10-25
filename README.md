@@ -22,9 +22,11 @@ As part of .NET Conf this year, we are hosting a .NET Student Zone on Monday, No
 ![SpeakerBanner](images/EventCard_10Speaker.png)
 
 In each session, you will build an app or project to add to your .NET portfolio. You will build web apps, a mobile app, an ML project, and more!
+# Agenda 
 
 ## Building your Portfolio and Resume.
 Create your GitHub Profile Page- Bethany Jepchumba
+
 Build your Project Portfolio website with .NET - Vincent Nwonah
 
 ## Build a complete solution with .NET

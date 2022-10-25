@@ -3,12 +3,13 @@
 
 Are you a student wanting to learn .NET? We have a pre-conference day with a ton of content you don't want to miss! We will have two sessions, a midday session at 12:00 PM UTC and an evening session at 10:30 PM UTC.
 
-7 November, 2022 
+<b>7 November, 2022 
 Event format: Livestream 2 x sessions Midday and Evening UTC TimeZone 
+</b>
 
-
-Register NOW 
+<b>Register NOW</b> 
 Midday session 12PM UTC  - Europe, Middle East, Africa, Asia Pacific Timezones - [Register Now](https://reactor.microsoft.com/en-us/reactor/events/17374/?WT.mc_id=academic-78652-leestott)
+
 Evening session 10.30PM UTC - North and South America Timezones - [Register Now](https://reactor.microsoft.com/en-us/reactor/events/17373/?WT.mc_id=academic-78652-leestott)
 
 

@@ -8,6 +8,7 @@ Event format: Livestream 2 x sessions Midday and Evening UTC TimeZone
 </b>
 
 <b>Register NOW</b> 
+
 Midday session 12PM UTC  - Europe, Middle East, Africa, Asia Pacific Timezones - [Register Now](https://reactor.microsoft.com/en-us/reactor/events/17374/?WT.mc_id=academic-78652-leestott)
 
 Evening session 10.30PM UTC - North and South America Timezones - [Register Now](https://reactor.microsoft.com/en-us/reactor/events/17373/?WT.mc_id=academic-78652-leestott)

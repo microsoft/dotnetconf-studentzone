@@ -23,10 +23,6 @@ As part of .NET Conf this year, we are hosting a .NET Student Zone on Monday, No
 
 In each session, you will build an app or project to add to your .NET portfolio. You will build web apps, a mobile app, an ML project, and more!
 
-
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
-
 ## Building your Portfolio and Resume.
 Create your GitHub Profile Page- Bethany Jepchumba
 Build your Project Portfolio website with .NET - Vincent Nwonah
@@ -48,10 +44,10 @@ Developing a backend to your website - Chris Noring
 Build a mobile app to track your water consumption - Someleze Diko
 
 <b>Using .NET Blazor to build a Web App</b>
-Design/Build and Deploy your water consumption tracker website - Justin Yoo
+Design/Build and Deploy your water consumption tracker website - Justin Yoo [Session Code](/Using%20.NET%20Blazor%20to%20Build%20a%20Web%20App/README.md)
 
-<b>Next Steps: Getting Top Marks for your next assignment</b>
-Ace your next assignment with .NET and test driven development tips and techniques - Diego Colombo
+<b>Next Steps Getting Top Marks for your next assignment</b>
+Ace your next assignment with .NET and test driven development tips and techniques - Diego Colombo [Session Code](/Next%20Steps%20Getting%20Top%20Marks%20for%20your%20next%20assignment/README.md)
 
 ## Using this repo and development container
 

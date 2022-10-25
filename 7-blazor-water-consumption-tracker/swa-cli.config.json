@@ -1,0 +1,12 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "blazor-wasm-time-series": {
+      "appLocation": "src/WaterConsumption.Web",
+      "apiLocation": "src/WaterConsumption.Proxy",
+      "outputLocation": "wwwroot",
+      "run": "dotnet watch run",
+      "appDevserverUrl": "http://localhost:5000"
+    }
+  }
+}

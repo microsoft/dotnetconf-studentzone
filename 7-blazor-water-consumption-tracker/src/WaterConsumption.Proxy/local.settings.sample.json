@@ -1,0 +1,15 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+
+    "OpenApi__Version": "v3",
+    "OpenApi__DocVersion": "1.0.0",
+    "OpenApi__DocTitle": "Water Consumption Proxy API",
+    "OpenApi__DocDescription": "This is the proxy API for water consumption."
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "azureFunctions.deploySubpath": "7-blazor-water-consumption-tracker/src/WaterConsumption.Proxy/bin/Release/net6.0/publish",
+  "azureFunctions.projectLanguage": "C#",
+  "azureFunctions.projectRuntime": "~4",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.projectSubpath": "7-blazor-water-consumption-tracker/src/WaterConsumption.Proxy",
+  "azureFunctions.preDeployTask": "publish (functions)"
+}

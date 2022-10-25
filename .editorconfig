@@ -1,0 +1,21 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[*.{csproj}]
+indent_size = 2
+
+[*.{json,yaml,yml,xml}]
+indent_size = 2
+
+[*.{html,css,js}]
+indent_size = 2

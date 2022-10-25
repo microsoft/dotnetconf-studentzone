@@ -1,0 +1,63 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Water Consumption Proxy API",
+    "description": "This is the proxy API for water consumption.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:7071/api"
+    }
+  ],
+  "paths": {
+    "/consumptions/water": {
+      "get": {
+        "tags": [
+          "consumptions"
+        ],
+        "operationId": "GetWaterConsumptionData",
+        "responses": {
+          "200": {
+            "description": "The OK response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/waterConsumptionModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "waterConsumptionItemModel": {
+        "type": "object",
+        "properties": {
+          "dateTime": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "consumption": {
+            "type": "number",
+            "format": "double"
+          }
+        }
+      },
+      "waterConsumptionModel": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/waterConsumptionItemModel"
+            }
+          }
+        }
+      }
+    }
+  }
+}

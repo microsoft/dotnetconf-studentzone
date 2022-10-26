@@ -39,7 +39,7 @@ The following sessions will walk through the development of a complete applicati
 Detect how much water consumption is happening by using IoT sensors - Krzysztof Wicher
 
 <b>Using ML.NET for Machine Learning</b>
-Using machine learning techniques to estimate future water consumption - Carlotta Castelluccio
+Using machine learning techniques to estimate future water consumption - Carlotta Castelluccio [Session Code](/Using%20ML.NET%20for%20Machine%20Learning/README.md)
 
 <b>Using .NET and Minimal API</b>
 Developing a backend to your website - Chris Noring

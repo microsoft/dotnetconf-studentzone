@@ -4,14 +4,16 @@ using Microsoft.EntityFrameworkCore;
 
 class WaterConsumptionDb : DbContext
 {
-    public WaterConsumptionDb(DbContextOptions options) : base(options) { }
+    public WaterConsumptionDb(DbContextOptions options) : base(options) { 
+       
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        new DbInitializerConsumption(modelBuilder).Seed();
+        // new DbInitializerConsumption(modelBuilder).Seed();
     }
-    public DbSet<WaterEntry> Entries { get; set; } = null!;
+    public DbSet<WaterEntry> WaterEntry { get; set; } = null!;
 }
 
 public class WaterEntry

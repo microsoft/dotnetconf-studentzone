@@ -3,10 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using API.Models;
 using Microsoft.EntityFrameworkCore;
 
-var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("WaterConsumption") ?? "Data Source=WaterConsumption.db";
 
-builder.Services.AddSqlite<WaterConsumptionDb>(connectionString);
+var builder = WebApplication.CreateBuilder(args);
+// var connectionString = builder.Configuration.GetConnectionString("WaterConsumption") ?? "Data Source=WaterConsumption.db";
+var connectionString = builder.Configuration.GetConnectionString("DB");
+builder.Services.AddSqlServer<WaterConsumptionDb>(connectionString);
+// builder.Services.AddSqlite<WaterConsumptionDb>(connectionString);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -25,7 +27,7 @@ app.UseSwaggerUI(c =>
 app.MapGet("/Consumption", ([FromHeader(Name = "dotnetconfstudentzone")] string ? key, WaterConsumptionDb db) => {
   string ? secret = Environment.GetEnvironmentVariable("secret");
   if (key == secret) {
-    return Results.Ok(db.Entries.ToList());
+    return Results.Ok(db.WaterEntry.ToList());
   } else {
    
     return Results.StatusCode(401);

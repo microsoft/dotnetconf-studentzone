@@ -8,7 +8,7 @@ This project is an API built using Minimal API for .NET 6.
 
 ## Getting Started
 
-To run the resume API, do the following:
+To run the Water consumption API, do the following:
 
 - Install EF Core tools
 
@@ -33,15 +33,21 @@ To run the resume API, do the following:
 This API has the following endpoints:
 
 - `/`, default route responding with "hello world"
-- `/resume`, a route representing a resume, responding with a JSON:
+- `/Consumptionsecure`, a route representing a resume, responding with a JSON:
 
    ```json
+   [
    {
-     "Name": "",s
-     "Educations": [],
-     "Skills": [],
-     "Experiences": []
+     "Id": 1,
+     "DateTime" : "",
+     "Consumption": 100
+   },
+   {
+     "Id": 2,
+     "DateTime" : "",
+     "Consumption": 110
    }
+   ]
    ```
 
 - `/swagger`, an Open API endpoint that represents the docs of the API

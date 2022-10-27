@@ -1,0 +1,42 @@
+﻿@page "/"
+@using ApexCharts
+@using WebApp.Proxies
+
+@inject ProxyClient Proxy
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@if (consumptions == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <ApexChart TItem="WaterConsumptionItemModel"
+                Title="Water Consumptions">
+        <ApexPointSeries TItem="WaterConsumptionItemModel"
+                            Items="consumptions"
+                            Name="Water Consumptions"
+                            SeriesType="SeriesType.Line"
+                            XValue="@(p => p.Date.ToString("MM-dd"))"
+                            YValue="@(p => Convert.ToDecimal(p.Value))"
+                            />
+    </ApexChart>
+}
+
+@code {
+    private List<WaterConsumptionItemModel>? consumptions;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await Proxy.GetWaterConsumptionDataAsync(start: null, days: null);
+
+        consumptions = result.Data.ToList();
+    }
+}

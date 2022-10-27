@@ -1,6 +1,6 @@
 ## Install additional apt packages
 sudo apt-get update && \
-    sudo apt-get install -y dos2unix
+    sudo apt-get install -y dos2unix libsecret-1-0
 
 ## Configure git
 git config --global pull.rebase false
@@ -46,6 +46,10 @@ npm install -g @azure/static-web-apps-cli
 ## AZURE DEV CLI ##
 # Uncomment the below to install Azure Dev CLI. Make sure you have installed Azure CLI and GitHub CLI
 curl -fsSL https://aka.ms/install-azd.sh | bash
+
+## NSwag CLI ##
+# Uncomment the below to install NSwag CLI. Make sure you have installed node.js
+npm install nswag -g
 
 ## NGROK ##
 # Uncomment the below to install ngrok.
@@ -101,4 +105,4 @@ sudo chmod +x /usr/local/bin/oh-my-posh
 
 ## Azure Functions - local.settings.json ##
 # Uncomment the below to install local.settings.json file build without dotfiles integration
-curl https://raw.githubusercontent.com/justinyoo/devcontainers-dotnet/main/azure-functions/Build-LocalSettingsJson.ps1 > $HOME/Build-LocalSettingsJson.ps1
+# curl https://raw.githubusercontent.com/justinyoo/devcontainers-dotnet/main/azure-functions/Build-LocalSettingsJson.ps1 > $HOME/Build-LocalSettingsJson.ps1

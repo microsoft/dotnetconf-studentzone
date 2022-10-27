@@ -28,15 +28,23 @@ This app assumes the followings:
 
 ### App Settings ###
 
-This app consists of Blazor WASM as a front-end app and Azure Functions as a proxy API. Therefore, before running this application, you need to copy two files:
+This app consists of Blazor WASM as a front-end app and Azure Functions as a proxy API (and another Azure Functions as a backend API). Therefore, before running this application, you need to copy three files:
 
-* Blazor WASM app: `appsettings.sample.json` to `appsettings.json`
-* Azure Functions app: `local.settings.json` to `local.settings.json`
+* WebApp (Blazor WASM): `appsettings.sample.json` to `appsettings.json`
+* ProxyApp (Azure Functions): `local.settings.json` to `local.settings.json`
+* ApiApp (Azure Functions): `local.settings.json` to `local.settings.json`
 
 
 ### Local Machine ###
 
-To run this app on your local machine, run the following command:
+To run this app on your local machine, run the following commands:
+
+```bash
+cd src/ApiApp
+
+# API app needs to take a different port number other than 7071
+func start --port 7072
+```
 
 ```bash
 swa start
@@ -64,7 +72,14 @@ To run this app on your GitHub Codespaces, you need to update your `appsettings.
     pwsh -c "Invoke-RestMethod https://aka.ms/azfunc-openapi/add-codespaces.ps1 | Invoke-Expression"
     ```
 
-Then run the following command:
+Then run the following commands:
+
+```bash
+cd src/ApiApp
+
+# API app needs to take a different port number other than 7071
+func start --port 7072
+```
 
 ```bash
 swa start
@@ -73,16 +88,15 @@ swa start
 
 ### OpenAPI Document Generation ###
 
-In case you want to re-generate the OpenAPI document from the proxy API, run either bash shell script or PowerShell script:
-To get OpenAPI document for the proxy API:
+In case you want to generate the OpenAPI document from the backend API, run either bash shell script or PowerShell script to get OpenAPI document for the proxy API:
 
 ```bash
 # Bash Shell: Generate OpenAPI document
 curl -fsSL https://aka.ms/azfunc-openapi/generate-openapi.sh \
     | bash -s -- \
-        -p src/WaterConsumption.Proxy \
+        -p src/ApiApp \
         -e openapi/v3.json \
-        -o ./infra \
+        -o ./ \
         -f openapi.json \
         -d 30
 ```
@@ -90,9 +104,9 @@ curl -fsSL https://aka.ms/azfunc-openapi/generate-openapi.sh \
 ```powershell
 # PowerShell: Generate OpenAPI document
 & $([Scriptblock]::Create($(Invoke-RestMethod https://aka.ms/azfunc-openapi/generate-openapi.ps1))) `
-    -FunctionAppPath src/WaterConsumption.Proxy `
+    -FunctionAppPath src/ApiApp `
     -Endpoint openapi/v3.json `
-    -OutputPath ./infra `
+    -OutputPath ./ `
     -OutputFilename openapi.json `
     -Delay 30
 ```
@@ -103,12 +117,24 @@ curl -fsSL https://aka.ms/azfunc-openapi/generate-openapi.sh \
 In case you want to re-generate the proxy client from the OpenAPI document, run the NSwag CLI command:
 
 ```bash
+# For WebApp
 nswag openapi2csclient \
-    /Input:"infra/openapi.json" \
-    /Output:"src/WaterConsumption.Web/ProxyClient.cs" \
-    /Namespace:"WaterConsumption.Web.Proxies" \
+    /Input:"./openapi.json" \
+    /Output:"src/WebApp/ProxyClient.cs" \
+    /Namespace:"WebApp.Proxies" \
     /ClassName:"ProxyClient" \
     /JsonLibrary:"SystemTextJson" \
+    /ServiceSchemes:"http" \
+    /ServiceHost:"localhost:7071" \
+    /ParameterDateTimeFormat:"u"
+
+# For ProxyApp
+nswag openapi2csclient \
+    /Input:"./openapi.json" \
+    /Output:"src/ProxyApp/ProxyClient.cs" \
+    /Namespace:"ProxyApp.Proxies" \
+    /ClassName:"ProxyClient" \
+    /JsonLibrary:"NewtonsoftJson" \
     /ServiceSchemes:"http" \
     /ServiceHost:"localhost:7071" \
     /ParameterDateTimeFormat:"u"

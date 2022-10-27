@@ -1,0 +1,95 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "OpenAPI Document on Azure Functions",
+    "description": "This is the OpenAPI Document on Azure Functions",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://fncapp-dotnetconfstudent-b3fb.azurewebsites.net/api"
+    }
+  ],
+  "paths": {
+    "/consumptions/water": {
+      "get": {
+        "tags": [
+          "consumptions"
+        ],
+        "operationId": "GetWaterConsumptionData",
+        "parameters": [
+          {
+            "name": "start",
+            "in": "query",
+            "description": "The starting date to get the water consumption data for.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "days",
+            "in": "query",
+            "description": "The number of days to get the water consumption data for.",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The OK response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/waterConsumptionModel"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "function_key": [ ]
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "waterConsumptionItemModel": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "value": {
+            "type": "number",
+            "format": "double"
+          }
+        }
+      },
+      "waterConsumptionModel": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/waterConsumptionItemModel"
+            }
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "function_key": {
+        "type": "apiKey",
+        "description": "API auth key through request header",
+        "name": "x-functions-key",
+        "in": "header"
+      }
+    }
+  }
+}

@@ -11,14 +11,11 @@
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
     // Azure Functions
-    7071,
+    7071, 7072,
     // Azurite
-    10000,
-    10001,
-    10002,
+    10000, 10001, 10002,
     // ASP.NET Core Web/API App, Blazor App
-    5000,
-    5001,
+    5000, 5001,
     // Azure Static Web Apps
     4280
   ],
@@ -59,32 +56,39 @@
         // Recommended extensions - GitHub
         "cschleiden.vscode-github-actions",
         "GitHub.vscode-pull-request-github",
+
         // Recommended extensions - Azure
         "Azurite.azurite",
         "ms-azuretools.vscode-bicep",
+
         // Recommended extensions - Collaboration
         "eamodio.gitlens",
         "EditorConfig.EditorConfig",
         // "MS-vsliveshare.vsliveshare-pack",
         "streetsidesoftware.code-spell-checker",
+
         // Recommended extensions - .NET
         "Fudge.auto-using",
         "jongrant.csharpsortusings",
         "kreativ-software.csharpextensions",
+
         // Recommended extensions - Power Platform
         // "microsoft-IsvExpTools.powerplatform-vscode",
+
         // Recommended extensions - Markdown
         "bierner.github-markdown-preview",
         "DavidAnson.vscode-markdownlint",
         "docsmsft.docs-linting",
         "johnpapa.read-time",
         "yzhang.markdown-all-in-one",
+
         // Required extensions
         "GitHub.copilot",
         "ms-dotnettools.csharp",
         "ms-vscode.PowerShell",
         "ms-vscode.vscode-node-azure-pack",
         "VisualStudioExptTeam.vscodeintellicode",
+
         // .NET Interactive
         "ms-dotnettools.dotnet-interactive-vscode",
         "ms-python.python",
@@ -101,10 +105,17 @@
             "path": "/usr/bin/zsh"
           }
         },
+
         // Uncomment if you want to use CaskaydiaCove Nerd Font as the default terminal font
         "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+
         // Uncomment if you want to disable the minimap view
         "editor.minimap.enabled": false,
+
+        // Uncomment if you want to disable the welcome page of GitLens
+        "gitlens.showWelcomeOnInstall": false,
+        "gitlens.showWhatsNewAfterUpgrades": false,
+
         // Recommended settings for the explorer pane
         "explorer.sortOrder": "type",
         "explorer.fileNesting.enabled": true,
@@ -116,10 +127,13 @@
       }
     }
   },
+
   // Uncomment if you want to use bash in 'postCreateCommand' after the container is created
   // "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
+
   // Uncomment if you want to use zsh in 'postCreateCommand' after the container is created
   "postCreateCommand": "/usr/bin/zsh ./.devcontainer/post-create.sh > ~/post-create.log",
+
   // Uncomment if you want to connect other than 'root'. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "vscode"
 }

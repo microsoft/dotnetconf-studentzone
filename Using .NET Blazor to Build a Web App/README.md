@@ -40,14 +40,16 @@ This app consists of Blazor WASM as a front-end app and Azure Functions as a pro
 To run this app on your local machine, run the following commands:
 
 ```bash
+# Run both WebApp and ProxyApp
+swa start
+```
+
+```bash
+# Run the ApiApp
 cd src/ApiApp
 
 # API app needs to take a different port number other than 7071
 func start --port 7072
-```
-
-```bash
-swa start
 ```
 
 Then, open your web browser and type the URL `http://localhost:4280` into the location bar.
@@ -75,16 +77,17 @@ To run this app on your GitHub Codespaces, you need to update your `appsettings.
 Then run the following commands:
 
 ```bash
+# Run both WebApp and ProxyApp
+swa start
+```
+
+```bash
+# Run the ApiApp
 cd src/ApiApp
 
 # API app needs to take a different port number other than 7071
 func start --port 7072
 ```
-
-```bash
-swa start
-```
-
 
 ### OpenAPI Document Generation ###
 

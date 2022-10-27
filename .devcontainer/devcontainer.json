@@ -8,6 +8,7 @@
       "VARIANT": "6.0-focal"
     }
   },
+
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
     // Azure Functions
@@ -19,21 +20,25 @@
     // Azure Static Web Apps
     4280
   ],
+
   "features": {
     // Uncomment the below to install Azure CLI
     "ghcr.io/devcontainers/features/azure-cli:1": {
       "version": "latest"
     },
+
     // Uncomment the below to install GitHub CLI
     "ghcr.io/devcontainers/features/github-cli:1": {
       "version": "latest"
     },
+
     // Uncomment the below to install node.js
     "ghcr.io/devcontainers/features/node:1": {
       "version": "lts",
       "nodeGypDependencies": true,
       "nvmInstallPath": "/usr/local/share/nvm"
     },
+
     // Install common utilities
     "ghcr.io/devcontainers/features/common-utils:1": {
       "installZsh": true,
@@ -44,9 +49,11 @@
       "gid": "1000"
     }
   },
+
   "overrideFeatureInstallOrder": [
     "ghcr.io/devcontainers/features/common-utils"
   ],
+
   // Configure tool-specific properties.
   "customizations": {
     // Configure properties specific to VS Code.

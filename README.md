@@ -27,9 +27,9 @@ As part of [.NET Conf this year](https://www.dotnetconf.net/), we are hosting a 
 
 ⭐**November 7, 2022**⭐
 
-**Session 1** (12:00PM UTC | 08:00AM EST): Europe, Middle East, Africa, Asia Pacific Timezones
+**Session 1** (12:00PM UTC | 07:00AM EST): Europe, Middle East, Africa, Asia Pacific Timezones
 
-**Session 2** (09:30PM UTC | 05:30PM EST): North and South America Timezones
+**Session 2** (10:30PM UTC | 05:30PM EST): North and South America Timezones
 
 ## Register for the event
 [Session 1 - Europe, Middle East, Africa, Asia Pacific - Register Now](http://aka.ms/dotnetstudentemea)

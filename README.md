@@ -55,7 +55,7 @@ In each session, you will build an app or project to add to your .NET portfolio.
 | Build your Project Portfolio website with .NET | Vincent Nwonah | Blazor | *Coming soon!* | *Coming soon!* |
 | Detect water bottle consumption from IoT sensors | Krzysztof Wicher | IoT | [IOT Session](/Using%20IOT%20and%20.NET/README.md) | *Coming soon!* |
 | Use machine learning to estimate future water consumption  | Carlotta Castelluccio | ML.NET | [ML.NET Session](/Using%20ML.NET%20for%20Machine%20Learning/README.md) | *Coming soon!* |
-| Add a backend to your website  | Chris Noring | Minimal API | [Adding Backend](/Add%20a%20backend%20to%20your%20website/README.md| *Coming soon!* |
+| Add a backend to your website  | Chris Noring | Minimal API | [Adding Backend](/Add%20a%20backend%20to%20your%20website/README.md)| *Coming soon!* |
 | Build a mobile app to track water consumption | Someleze Diko  | .NET MAUI | *Coming soon!* | *Coming soon!* |
 | Build a water consumption tracker website    | Justin Yoo | Blazor | [Blazor Session](/Using%20.NET%20Blazor%20to%20Build%20a%20Web%20App/README.md) | *Coming soon!* |
 | Ace your next assignment with .NET  | Diego Colombo | Visual Studio | [.NET and TDD Session](/Next%20Steps%20Getting%20Top%20Marks%20for%20your%20next%20assignment/README.md)| *Coming soon!* |

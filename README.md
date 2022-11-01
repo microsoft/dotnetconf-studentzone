@@ -1,5 +1,5 @@
 ![BannerImage](images/EventCard_10banner.png)
-# .NET Conference 2022 Student Zone 
+# .NET Conf 2022 Student Zone 
 ## ⭐November 7, 2022⭐
 Are you a student wanting to learn .NET? We have a pre-conference day with a ton of content you don't want to miss!  **You will walk away with a project portfolio on your very own portfolio website** – don't worry, we will build it right along with you. We will have two sessions, a midday session at 12:00 PM UTC and an evening session at 10:30 PM UTC.
 

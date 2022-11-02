@@ -39,6 +39,9 @@ app.UseSwaggerUI(c =>
   c.SwaggerEndpoint("/swagger/v1/swagger.json", "Water Consumption API V1");
 });
 
+app.MapGet("/hello", () => "hello");
+app.MapGet("/hello2", () => "hello");
+
 app.MapGet("/Consumption", ([FromHeader(Name = "dotnetconfstudentzone")] string ? key, WaterConsumptionDb db) => {
   string ? secret = Environment.GetEnvironmentVariable("secret");
   if (key == secret) {
@@ -50,7 +53,7 @@ app.MapGet("/Consumption", ([FromHeader(Name = "dotnetconfstudentzone")] string 
 });
 
 app.MapGet("/", () => "Hello World!");
-app.MapGet("/hello", () => "hello");
+
 app.MapPost("/Consumption", (
   [FromHeader(Name = "dotnetconfstudentzone")] string ? key, 
   WaterEntry entry,

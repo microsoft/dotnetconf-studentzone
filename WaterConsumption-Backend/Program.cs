@@ -1,11 +1,26 @@
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Mvc;
 using API.Models;
+using System.Linq;
 using Microsoft.EntityFrameworkCore;
 
 
 var builder = WebApplication.CreateBuilder(args);
 // var connectionString = builder.Configuration.GetConnectionString("WaterConsumption") ?? "Data Source=WaterConsumption.db";
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(MyAllowSpecificOrigins,
+                          policy =>
+                          {
+                              policy.WithOrigins("*")
+                                                  .AllowAnyHeader()
+                                                  .AllowAnyMethod();
+                          });
+});
+
+
 var connectionString = builder.Configuration.GetConnectionString("DB");
 builder.Services.AddSqlServer<WaterConsumptionDb>(connectionString);
 // builder.Services.AddSqlite<WaterConsumptionDb>(connectionString);
@@ -34,27 +49,27 @@ app.MapGet("/Consumption", ([FromHeader(Name = "dotnetconfstudentzone")] string 
   }
 });
 
-app.MapGet("/ConsumptionSecure", ([FromHeader(Name = "dotnetconfstudentzone")] string ? key) =>
-{
-    string ? secret = Environment.GetEnvironmentVariable("secret");
-    if (key == secret)
-    {
-      return Results.Ok(InMemory.Entries.ToList());
-    }
-    else
-    {
-      return Results.StatusCode(401);
-    }
+app.MapGet("/", () => "Hello World!");
+app.MapGet("/hello", () => "hello");
+app.MapPost("/Consumption", (
+  [FromHeader(Name = "dotnetconfstudentzone")] string ? key, 
+  WaterEntry entry,
+  WaterConsumptionDb db ) => {
+  
+  string ? secret = Environment.GetEnvironmentVariable("secret");
+  if (key == secret) {
+    int items = db.WaterEntry.Count();
+    entry.Id = items + 1;
+    // entry.DateTime = DateTime.Now;
+    db.WaterEntry.Add(entry);
+    db.SaveChanges();
+    return Results.Ok(entry);
+  } else {
+    return Results.StatusCode(401);
+  }
 });
 
-app.MapGet("/", () => "Hello World!");
-// app.MapGet("/resume", (ResumeDb db) => {
-//   return db.Resumes
-//   .Include(r => r.Skills)
-//   .Include(r => r.Educations)
-//   .Include(r => r.Experiences)
-//   .ToList();
-// });
+app.UseCors(MyAllowSpecificOrigins);
 
 app.Run();
 

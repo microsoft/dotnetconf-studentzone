@@ -3,8 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using API.Models;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-
-
+ 
 var builder = WebApplication.CreateBuilder(args);
 // var connectionString = builder.Configuration.GetConnectionString("WaterConsumption") ?? "Data Source=WaterConsumption.db";
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";

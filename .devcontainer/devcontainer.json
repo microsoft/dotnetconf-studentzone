@@ -34,7 +34,7 @@
 
     // Uncomment the below to install node.js
     "ghcr.io/devcontainers/features/node:1": {
-      "version": "lts",
+      "version": "16",
       "nodeGypDependencies": true,
       "nvmInstallPath": "/usr/local/share/nvm"
     },

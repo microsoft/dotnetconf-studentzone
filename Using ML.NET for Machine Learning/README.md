@@ -8,7 +8,7 @@ In this session, you will use ML.NET framework and .NET Interactive to estimate 
 ### Run the ML notebook locally  
  * [Visual Studio](https://visualstudio.microsoft.com/)
  * [.NET SDK 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
- * [.NET Interactive Notebooks extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode)
+ * [Polyglot Notebooks extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode) (Formerly known as .NET Interactive)
 
 ### Run the ML notebook on the cloud
  * A Github account enabled to [Github Codespaces](https://github.com/features/codespaces) 

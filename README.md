@@ -16,6 +16,7 @@ Are you a student wanting to learn .NET? We have a pre-conference day with a ton
   - [Using this repo and development container](#using-this-repo-and-development-container)
     - [GitHub Codespaces](#github-codespaces)
     - [VS Code Remote - Containers](#vs-code-remote---containers)
+- [Student Resources](#student-resources)
 - [Learning Resources](#learning-resources)
   - [Speakers](#speakers)
 - [Trademarks](#trademarks)
@@ -98,11 +99,25 @@ Follow these steps to open this sample in a container using the VS Code Remote -
    - Modify the `"onAutoForward"` attribute in your `portsAttributes` from `"notify"` to `"openBrowser"`.
    - Press <kbd>F1</kbd> and select the **Remote-Containers: Rebuild Container** or **Codespaces: Rebuild Container** command so the modifications are picked up.  
 
+# Student Resources 
+1. [Microsoft Student Resources](http://aka.ms/learnstudent)  
+2. [.NET Student Zone Cloud Skills Challenge](http://aka.ms/dotnetstudentcsc)   
+3. [Azure for Student](http://aka.ms/azure4student) 
+4. [GitHub Student Developer Pack](http://aka.ms/GitHubStudentPack) 
+
 # Learning Resources
 Want more .NET Learning resources?
-1. [Student Resources Portal](http://aka.ms/learnstudent)
-2. [Self-guided learning paths](http://aka.ms/mslearn-dotnet)
-3. [Beginner video series](https://aka.ms/dotnetvideos)
+1. [Learn more C# and .NET](https://aka.ms/mslearn-dotnet)    
+2. [Beginner video series](https://aka.ms/dotnetvideos)
+3. [.NET Learning Paths on Microsoft Learn](https://aka.ms/mslearn-dotnet) 
+4. [Beginner Videos on Blazor, .NET MAUI, ML.NET, and more](http://aka.ms/blazorvideos)
+5. [.NET Documentation](http://aka.ms/dotnetdoc) 
+6. [.NET MAUI](http://aka.ms/MAUIcrossplat) 
+7. [Blazor Web Applications](http://aka.ms/blazorwebapp) 
+8. [Minimal APIs](http://aka.ms/dotnetminimalapi) 
+9. [ML.NET](http://aka.ms/trainmldotnet) 
+10. [.NET IoT](http://aka.ms/dotnetIOT) 
+
 
 Watch [.NET Conf](https://www.dotnetconf.net/)! Sessions start November 8th.
 

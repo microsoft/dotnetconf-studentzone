@@ -5,14 +5,14 @@ This is a Blazor WebAssembly (WASM) app tracking water consumptions.
 
 ## Prerequisites ##
 
-* [.NET SDK 6.0.402+](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
-* [PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell)
-* [Bicep CLI](https://learn.microsoft.com/azure/azure-resource-manager/bicep/install)
-* [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli)
-* [GitHub CLI](https://cli.github.com/manual/installation)
-* [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd)
-* [Azure Functions Core Tools](https://learn.microsoft.com/azure/azure-functions/functions-run-local)
-* [Static Web App CLI](https://azure.github.io/static-web-apps-cli/docs/use/install)
+* [.NET SDK 6.0.402+](https://dotnet.microsoft.com/en-us/download/dotnet/6.0?WT.mc_id=academic-78652-leestott)
+* [PowerShell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell?WT.mc_id=academic-78652-leestott)
+* [Bicep CLI](https://learn.microsoft.com/azure/azure-resource-manager/bicep/install?WT.mc_id=academic-78652-leestott)
+* [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli?WT.mc_id=academic-78652-leestott)
+* [GitHub CLI](https://cli.github.com/manual/installation?WT.mc_id=academic-78652-leestott)
+* [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd?WT.mc_id=academic-78652-leestott)
+* [Azure Functions Core Tools](https://learn.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=academic-78652-leestott)
+* [Static Web App CLI](https://azure.github.io/static-web-apps-cli/docs/use/install?WT.mc_id=academic-78652-leestott)
 * [NSwag CLI](https://www.npmjs.com/package/nswag)
 
 

@@ -20,7 +20,7 @@ We need to update the API details on line 15 to 17 on the APIManager.cs class. Y
 ```
 static readonly string BaseAddress = "{YOUR_API_BASE_URL}";
 static readonly string Url = $"{BaseAddress}/consumption/";
-private static string authorizationKey = "{YOUR_API_KEY}";
+private static string authorizationKey = "{YOUR_API_KEY_VALUE}";
 ```
 As part of the headers for your API make sure that the key you use in your code matched the key from your API headers. In this solution we use dotnetconfstudentzone for demo purposes. This is line 24 in our APIManager.cs
 ```

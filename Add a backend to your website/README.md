@@ -1,10 +1,12 @@
 # API for a resume
 
-This project is an API built using Minimal API for .NET 6.
+This project is an API built using (Minimal API for .NET 6)[https://learn.microsoft.com/aspnet/core/fundamentals/minimal-apis?view=aspnetcore-6.0?WT.mc_id=academic-78652-leestott).
 
-## What you will need 
+## Resources
 
-* [.NET SDK 6.0.402+](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+* [.NET SDK 6.0.402+](https://dotnet.microsoft.com/download/dotnet/6.0?WT.mc_id=academic-78652-leestott)
+* [Tutorial Build a web API with minimal API, ASP.NET Core, and .NET 6](https://learn.microsoft.com/training/modules/build-web-api-minimal-api/?WT.mc_id=academic-78652-leestott)
+* [Tutorial: Create a minimal web API with ASP.NET Core](https://learn.microsoft.com/aspnet/core/tutorials/min-web-api?view=aspnetcore-6.0&tabs=visual-studio?WT.mc_id=academic-78652-leestott)
 
 ## Getting Started
 

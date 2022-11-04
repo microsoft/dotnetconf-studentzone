@@ -52,7 +52,7 @@ In each session, you will build an app or project to add to your .NET portfolio.
 | Session Title | Speaker(s) | Tools | Session Code | Video |
 |-------|---------|-----------|---|---|
 | Welcome to the Student Zone!| Scott Hanselman, Katie Savage  |  | *Coming soon!* | *Coming soon!* |
-| Create a GitHub Profile |Bethany Jepchumba  | GitHub | *Coming soon!* | *Coming soon!* |
+| Create a GitHub Profile |Bethany Jepchumba  | GitHub | [Create a GitHub Profile](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Create%20a%20GitHub%20Profile) | *Coming soon!* |
 | Build your Project Portfolio website with .NET | Matt Soucoup | Blazor | [Project Portfolio with Blazor Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Build%20your%20Project%20Portfolio%20website%20with%20.NET/README.md) | *Coming soon!* |
 | Detect water bottle consumption from IoT sensors | Krzysztof Wicher | IoT | [IOT Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20IOT%20and%20.NET/README.md) | *Coming soon!* |
 | Use machine learning to estimate future water consumption  | Carlotta Castelluccio | ML.NET | [ML.NET Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20ML.NET%20for%20Machine%20Learning/README.md) | *Coming soon!* |

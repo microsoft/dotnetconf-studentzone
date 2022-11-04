@@ -128,14 +128,14 @@ If in doubt always refer to datasheet.
 
 I'll cover only how to do that with .NET.
 
-First step is to create your app - i.e. console app. You can do it in Visual Studio or with `dotnet new console` command if you have [dotnet SDK installed](https://dotnet.microsoft.com/en-us/download).
+First step is to create your app - i.e. console app. You can do it in Visual Studio or with `dotnet new console` command if you have [dotnet SDK installed](https://dotnet.microsoft.com/en-us/download?WT.mc_id=academic-78652-leestott).
 
 .NET provides github repository for different devices: https://github.com/dotnet/iot the output of that repository is NuGet package: [Iot.Device.Bindings](https://www.nuget.org/packages/Iot.Device.Bindings).
-The list of all supported devices by this repository can be found [here](https://github.com/dotnet/iot/blob/main/src/devices/README.md).
+The list of all supported devices by this repository can be found [here](https://github.com/dotnet/iot/blob/main/src/devices/README.md?WT.mc_id=academic-78652-leestott).
 
 First step is to find device you're looking for on that list and then read README page for that device.
 
-I.e. [FT4222 README](https://github.com/dotnet/iot/blob/main/src/devices/Ft4222/README.md) will tell you how to install USB driver for that device and provide you sample code how to use it.
+I.e. [FT4222 README](https://github.com/dotnet/iot/blob/main/src/devices/Ft4222/README.md?WT.mc_id=academic-78652-leestott) will tell you how to install USB driver for that device and provide you sample code how to use it.
 
 ## Water consumption tracking with .NET IoT
 
@@ -163,8 +163,8 @@ We can do some shortcuts and simplifications here are proof of concept.
 ### Sensor selection
 
 After a bit of reasearch and checking what I have available I found we might use:
-- accelerometer to track movement - I happened to have [LIS3DH sensor](https://github.com/dotnet/iot/blob/main/src/devices/Lis3Dh/README.md), I'll use that (if you don't have one, you can search for complete list of accelerometrs supported by .NET IoT [here](https://github.com/dotnet/iot/blob/main/src/devices/README.md#accelerometers))
-- weight sensor - .NET IoT currently supports only one weight sensor - [I<sup>2</sup>C weight sensor kit from DFRobot](https://github.com/dotnet/iot/blob/main/src/devices/Hx711I2c/README.md)
+- accelerometer to track movement - I happened to have [LIS3DH sensor](https://github.com/dotnet/iot/blob/main/src/devices/Lis3Dh/README.md?WT.mc_id=academic-78652-leestott), I'll use that (if you don't have one, you can search for complete list of accelerometrs supported by .NET IoT [here](https://github.com/dotnet/iot/blob/main/src/devices/README.md#accelerometers?WT.mc_id=academic-78652-leestott))
+- weight sensor - .NET IoT currently supports only one weight sensor - [I<sup>2</sup>C weight sensor kit from DFRobot](https://github.com/dotnet/iot/blob/main/src/devices/Hx711I2c/README.md?WT.mc_id=academic-78652-leestott)
 
 Note: Both of those sensors were added very recently and are available only on [pre-release NuGet package of Iot.Device.Bindings](https://www.nuget.org/packages/Iot.Device.Bindings/2.3.0-prerelease.22520.10) - make sure to use 2.3.0 pre-release version or higher.
 
@@ -191,13 +191,13 @@ Once we get enough samples we can start analyzing it and figure out what best po
 
 ##### FT4222 setup
 
-If you haven't used your FT4222 yet you will need to install some drivers first. If you search for "FT4222" on [device listing](https://github.com/dotnet/iot/blob/main/src/devices/README.md) you should find [FT4222 README page](https://github.com/dotnet/iot/blob/main/src/devices/Ft4222/README.md).
+If you haven't used your FT4222 yet you will need to install some drivers first. If you search for "FT4222" on [device listing](https://github.com/dotnet/iot/blob/main/src/devices/README.md?WT.mc_id=academic-78652-leestott) you should find [FT4222 README page](https://github.com/dotnet/iot/blob/main/src/devices/Ft4222/README.md?WT.mc_id=academic-78652-leestott).
 
 It will describe all necessary steps to get you going.
 
 ##### How do we read from accelerometer?
 
-We start with finding README page on [device listing](https://github.com/dotnet/iot/blob/main/src/devices/README.md). We search for "LIS3DH" since that's what our sensor is called. [We should've found README](https://github.com/dotnet/iot/blob/main/src/devices/Lis3Dh/README.md).
+We start with finding README page on [device listing](https://github.com/dotnet/iot/blob/main/src/devices/README.md?WT.mc_id=academic-78652-leestott). We search for "LIS3DH" since that's what our sensor is called. [We should've found README](https://github.com/dotnet/iot/blob/main/src/devices/Lis3Dh/README.md?WT.mc_id=academic-78652-leestott).
 
 Now we copy&paste the sample into your project. If everything is setup and connected correctly you should start seeing accelerometer readings when you run the sample app.
 
@@ -233,7 +233,7 @@ Vector3 acceleration = accelerometer.Acceleration;
 
 ##### How do we read from weight sensor?
 
-We start with finding README page on [device listing](https://github.com/dotnet/iot/blob/main/src/devices/README.md). We search for "DFRobot" or "KIT0176" or "weight" and [we should've found README](https://github.com/dotnet/iot/blob/main/src/devices/Hx711I2c/README.md).
+We start with finding README page on [device listing](https://github.com/dotnet/iot/blob/main/src/devices/README.md?WT.mc_id=academic-78652-leestott). We search for "DFRobot" or "KIT0176" or "weight" and [we should've found README](https://github.com/dotnet/iot/blob/main/src/devices/Hx711I2c/README.md?WT.mc_id=academic-78652-leestott).
 
 Now let's look at our sample and beginning looks really similar to accelerometer sample:
 

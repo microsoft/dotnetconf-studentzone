@@ -53,7 +53,7 @@ In each session, you will build an app or project to add to your .NET portfolio.
 |-------|---------|-----------|---|---|
 | Welcome to the Student Zone!| Scott Hanselman, Katie Savage  |  | *Coming soon!* | *Coming soon!* |
 | Create a GitHub Profile |Bethany Jepchumba  | GitHub | *Coming soon!* | *Coming soon!* |
-| Build your Project Portfolio website with .NET | Vincent Nwonah | Blazor | *Coming soon!* | *Coming soon!* |
+| Build your Project Portfolio website with .NET | Matt Soucoup | Blazor | [Project Portfolio with Blazor Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Build%20your%20Project%20Portfolio%20website%20with%20.NET/README.md) | *Coming soon!* |
 | Detect water bottle consumption from IoT sensors | Krzysztof Wicher | IoT | [IOT Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20IOT%20and%20.NET/README.md) | *Coming soon!* |
 | Use machine learning to estimate future water consumption  | Carlotta Castelluccio | ML.NET | [ML.NET Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20ML.NET%20for%20Machine%20Learning/README.md) | *Coming soon!* |
 | Add a backend to your website  | Chris Noring | Minimal API | [Adding Backend](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Add%20a%20backend%20to%20your%20website/README.md)| *Coming soon!* |
@@ -132,8 +132,8 @@ Watch [.NET Conf](https://www.dotnetconf.net/)! Sessions start November 8th.
 <b>Bethany Jepchumba</b>
 >Bethany Jepchumba is an Academic Cloud Advocate at Microsoft, focused on Data Machine Learning and AI. Prior to joining the role, she was a Gold Microsoft Learn Student Ambassador. She comes from a community of marathon runners but decided to run code instead.
 
-<b>Vincent Nwonah</b>
->Vincent is a Cloud Developer Advocate focusing on helping developer run Dotnet on Azure in the best way possible. He is passionate about helping new and old developers find the resources they need to be productive while working with Dotnet and Azure.
+<b>Matt Soucoup</b>
+>Matt is a Principal Cloud Developer Advocate for .NET at Microsoft spreading the love of developing for Azure with .NET. Matt's been a professional developer for over 20 years and wants to make your experience creating apps delightful. Matt blogs at codemillmatt.com, podcasts at dotnetmauipodcast.com and is just a Bing search away.
 
 <b>Krzysztof Wicher</b>
 >Krzysztof is a developer on the .NET team, currently working on System.Text.Json and one of the owners of the .NET IoT v-team. He's also one of the people who make .NET more secure. Before joining Microsoft, he studied control engineering and robotics.

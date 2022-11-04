@@ -28,9 +28,8 @@ Add a README to your GitHub profile to tell other people about yourself.
 - [GitHub Profile ReadMe and Best Practice](https://aka.ms/GHProfileReadme)
 - [Emoji Cheatsheet adding Emojis and icons to your profile](https://www.webfx.com/tools/emoji-cheat-sheet/)
 - [Adding Dynamically generated GitHub stats for your readmes](https://anuraghazra/github-readme-stats)
-- [Managing your profile README - GitHub Docs](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)
 
-#### Azure and Tools for Students 
+#### GitHub & Azure for Students 
 - [Student Hub](https://aka.ms/learnstudent)
 - [Azure for Students](https://aka.ms/azure4student)
 - [GitHub Student Developer Pack](http://aka.ms/GitHubStudentPack) 

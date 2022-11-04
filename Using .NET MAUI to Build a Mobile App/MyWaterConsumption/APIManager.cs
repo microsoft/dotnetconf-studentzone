@@ -12,9 +12,9 @@ namespace MyWaterConsumption
 {
     public class APIManager
     {
-        static readonly string BaseAddress = "https://chris-water3.azurewebsites.net";
+        static readonly string BaseAddress = "{YOUR_API_BASE_URL}";
         static readonly string Url = $"{BaseAddress}/consumption/";
-        private static string authorizationKey = "iSdRdw1aNjAFWcX-2GVQmR533bbx8gc8XWS1OnBkcKZ_AzFuudr7kw==";
+        private static string authorizationKey = "{YOUR_API_KEY_VALUE}";
         static HttpClient client;
 
         public static async Task<IEnumerable<Consumption>> GetAll()

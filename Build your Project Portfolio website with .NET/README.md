@@ -2,7 +2,13 @@
 
 Hello! This is a simple repo for demonstrating how to build a Blazor-WASM site to display a resume.
 
-It contains the following:
+Blazor WASM (or Blazor WebAssembly) is a single-page web application framework built by Microsoft that allows you to build single-page web applications. Built as part of the .NET Core ecosystem, Blazor uses C# to generate dynamic content for a rich client experience.
+
+# Some Additional Resources for Blazor :fire:
+- [Blazor Tutorial Build your first Blazor app](https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro?WT.mc_id=academic-78652-leestott)
+- [What is Blazor WASM](https://preview.blazorise.com/blog/what-is-blazor-wasm)
+
+# :open_file_folder: This solution contains the following:
 
 - [Components](#components) - several components used to display pieces of the resume.
     - The most important component is `resume.razor`. This component is responsible for grabbing the resume's data and displaying it.

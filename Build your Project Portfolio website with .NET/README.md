@@ -17,6 +17,10 @@ Blazor WASM (or Blazor WebAssembly) is a single-page web application framework b
 - C# representation of the resume. Code in `Pages/Common/Types.cs` that model the data from the resume.json in C#. (The resume's data is loaded in `resume.razor`.)
 - [Styling](#styling) - CSS changes used to make the resume 
 
+# Installs required
+ * [Visual Studio](https://visualstudio.microsoft.com/?WT.mc_id=academic-78652-leestott)
+ * [.NET SDK 6](https://dotnet.microsoft.com/download/dotnet/6.0?WT.mc_id=academic-78652-leestott)
+
 ## Run
 
 To run the app, open up a terminal window and make sure you're in teh same directory as the `blazor-resume.csproj` file. (It's the same directory as this README file). Then run:

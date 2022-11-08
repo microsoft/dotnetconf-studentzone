@@ -56,17 +56,17 @@ Puts a small, .NET Bot, bored cat, an enthusiastic dog, a feisty snake, a rubber
 ## Agenda
 In each session, you will build an app or project to add to your .NET portfolio. You will build web apps, a mobile app, an ML project, and more!
 
-| Session Title | Speaker(s) | Tools | Session Code | Video |
-|-------|---------|-----------|---|---|
-| Welcome to the Student Zone!| Scott Hanselman, Katie Savage  |  |  | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=90) |
-| Create a GitHub Profile |Bethany Jepchumba  | GitHub | [Create a GitHub Profile](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Create%20a%20GitHub%20Profile) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=972) |
-| Build your Project Portfolio website with .NET | Matt Soucoup | Blazor | [Project Portfolio with Blazor Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Build%20your%20Project%20Portfolio%20website%20with%20.NET/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=2596) |
-| Detect water bottle consumption from IoT sensors | Krzysztof Wicher | IoT | [IOT Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20IOT%20and%20.NET/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=5091) |
-| Use machine learning to estimate future water consumption  | Carlotta Castelluccio | ML.NET | [ML.NET Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20ML.NET%20for%20Machine%20Learning/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=8147) |
-| Add a backend to your website  | Chris Noring | Minimal API | [Adding Backend](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Add%20a%20backend%20to%20your%20website/README.md)| [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=8147) |
-| Build a mobile app to track water consumption | Someleze Diko  | .NET MAUI | [using .NET MAUI to Build a Mobile App](/Using%20.NET%20MAUI%20to%20Build%20a%20Mobile%20App/Readme.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=11774) |
-| Build a water consumption tracker website    | Justin Yoo | Blazor | [Blazor Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20.NET%20Blazor%20to%20Build%20a%20Web%20App/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=14022) |
-| Ace your next assignment with .NET  | Diego Colombo | Visual Studio | [.NET and TDD Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Next%20Steps%20Getting%20Top%20Marks%20for%20your%20next%20assignment/README.md)| [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=16397) |
+| Session Title | Speaker(s) | Tools | Session Code | Video | Presentation |
+|-------|---------|-----------|---|---|---|
+| Welcome to the Student Zone!| Scott Hanselman, Katie Savage  |  |  | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=90) | |
+| Create a GitHub Profile |Bethany Jepchumba  | GitHub | [Create a GitHub Profile](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Create%20a%20GitHub%20Profile) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=972) |*Coming Soon* |
+| Build your Project Portfolio website with .NET | Matt Soucoup | Blazor | [Project Portfolio with Blazor Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Build%20your%20Project%20Portfolio%20website%20with%20.NET/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=2596) |*Coming Soon* |
+| Detect water bottle consumption from IoT sensors | Krzysztof Wicher | IoT | [IOT Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20IOT%20and%20.NET/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=5091) |[Presentation](/decks/Using-IOT-and-NET.pdf) |
+| Use machine learning to estimate future water consumption  | Carlotta Castelluccio | ML.NET | [ML.NET Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20ML.NET%20for%20Machine%20Learning/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=8147) | [Presentation](/decks/DotNet_StudentZone%20-%20Use%20ML%20to%20estimate%20water%20consumption.pdf) |
+| Add a backend to your website  | Chris Noring | Minimal API | [Adding Backend](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Add%20a%20backend%20to%20your%20website/README.md)| [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=8147) | *Coming Soon* |
+| Build a mobile app to track water consumption | Someleze Diko  | .NET MAUI | [using .NET MAUI to Build a Mobile App](/Using%20.NET%20MAUI%20to%20Build%20a%20Mobile%20App/Readme.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=11774) | *Coming Soon* |
+| Build a water consumption tracker website    | Justin Yoo | Blazor | [Blazor Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20.NET%20Blazor%20to%20Build%20a%20Web%20App/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=14022) |*Coming Soon* |
+| Ace your next assignment with .NET  | Diego Colombo | Visual Studio | [.NET and TDD Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Next%20Steps%20Getting%20Top%20Marks%20for%20your%20next%20assignment/README.md)| [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=16397) |*Coming Soon* |
 
 
 ## Using this repo and development container

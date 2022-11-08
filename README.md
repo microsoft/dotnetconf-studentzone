@@ -41,9 +41,11 @@ As part of [.NET Conf this year](https://www.dotnetconf.net/), we are hosting a 
 [Join the .NET Conf Student Zone Microsoft Learn, Cloud Skills Challenge and Win Swag](http://aka.ms/dotnetstudententry )
 After enjoying the .NET Conf Student Zone, you will be ready to complete the .NET Conf Student Zone Cloud Skills Challenge. The challenge is open to all students who registered for .NET Conf on November 7 and three lucky winners will get a .NET Conf SWAG bag!
 
-## Digital Swag for the .NET Conf Student Zone 
-[Download .NET Bot digital pet for VSCode](https://aka.ms/vscodepet) 
+## Digital Swag for the .NET Conf Student Zone 🎁🎉
+[Download .NET Bot digital pet for VSCode](https://aka.ms/vscodepet)
+
 ![DotNetPet](/images/dotnetbotpet.jpg)
+
 Puts a small, .NET Bot, bored cat, an enthusiastic dog, a feisty snake, a rubber duck, or Clippy 📎 in your VS Code editor to boost productivity.
 
 # More Event and Setup Information

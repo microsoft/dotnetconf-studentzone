@@ -4,13 +4,14 @@
 Are you a student wanting to learn .NET? We have a pre-conference day with a ton of content you don't want to miss!  **You will walk away with a project portfolio on your very own portfolio website** – don't worry, we will build it right along with you. We will have two sessions, a midday session at 12:00 PM UTC and an evening session at 10:30 PM UTC.
 
 ## Table of Contents
-- [.NET Conference 2022 Student Zone](#net-conference-2022-student-zone)
+- [.NET Conf 2022 Student Zone](#net-conf-2022-student-zone)
   - [⭐November 7, 2022⭐](#november-7-2022)
   - [Table of Contents](#table-of-contents)
   - [What is the .NET Conf Student Zone?](#what-is-the-net-conf-student-zone)
   - [When is the Student Zone?](#when-is-the-student-zone)
   - [Register for the event](#register-for-the-event)
   - [Join the challenge to win SWAG 🎁🎉](#join-the-challenge-to-win-swag-)
+  - [Digital Swag for the .NET Conf Student Zone 🎁🎉](#digital-swag-for-the-net-conf-student-zone-)
 - [More Event and Setup Information](#more-event-and-setup-information)
   - [Agenda](#agenda)
   - [Using this repo and development container](#using-this-repo-and-development-container)
@@ -65,7 +66,7 @@ In each session, you will build an app or project to add to your .NET portfolio.
 | Use machine learning to estimate future water consumption  | Carlotta Castelluccio | ML.NET | [ML.NET Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20ML.NET%20for%20Machine%20Learning/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=8147) | [Presentation](https://github.com/microsoft/dotnetconf-studentzone/blob/main/decks/DotNet_StudentZone%20-%20Use%20ML%20to%20estimate%20water%20consumption.pdf) |
 | Add a backend to your website  | Chris Noring | Minimal API | [Adding Backend](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Add%20a%20backend%20to%20your%20website/README.md)| [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=8147) | *Coming Soon* |
 | Build a mobile app to track water consumption | Someleze Diko  | .NET MAUI | [using .NET MAUI to Build a Mobile App](/Using%20.NET%20MAUI%20to%20Build%20a%20Mobile%20App/Readme.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=11774) | [Presentation](https://github.com/microsoft/dotnetconf-studentzone/blob/main/decks/Using-NET-MAUI-to-create-a-Mobile-App.pdf) |
-| Build a water consumption tracker website    | Justin Yoo | Blazor | [Blazor Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20.NET%20Blazor%20to%20Build%20a%20Web%20App/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=14022) |*Coming Soon* |
+| Build a water consumption tracker website    | Justin Yoo | Blazor | [Blazor Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20.NET%20Blazor%20to%20Build%20a%20Web%20App/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=14022) | [Presentation](https://github.com/microsoft/dotnetconf-studentzone/blob/main/decks/Using-NET-Blazor-to-Build-a-Web-App.pdf) |
 | Ace your next assignment with .NET  | Diego Colombo | Visual Studio | [.NET and TDD Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Next%20Steps%20Getting%20Top%20Marks%20for%20your%20next%20assignment/README.md)| [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=16397) | [Presentation](https://github.com/microsoft/dotnetconf-studentzone/blob/main/decks/Next%20Steps%20Getting%20Top%20Marks%20for%20your%20next%20assignment.pdf) |
 
 

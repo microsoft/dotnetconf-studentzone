@@ -66,7 +66,7 @@ In each session, you will build an app or project to add to your .NET portfolio.
 | Add a backend to your website  | Chris Noring | Minimal API | [Adding Backend](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Add%20a%20backend%20to%20your%20website/README.md)| [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=8147) | *Coming Soon* |
 | Build a mobile app to track water consumption | Someleze Diko  | .NET MAUI | [using .NET MAUI to Build a Mobile App](/Using%20.NET%20MAUI%20to%20Build%20a%20Mobile%20App/Readme.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=11774) | [Presentation](/decks/Using-NET-MAUI-to-create-a-Mobile-App.pdf) |
 | Build a water consumption tracker website    | Justin Yoo | Blazor | [Blazor Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Using%20.NET%20Blazor%20to%20Build%20a%20Web%20App/README.md) | [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=14022) |*Coming Soon* |
-| Ace your next assignment with .NET  | Diego Colombo | Visual Studio | [.NET and TDD Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Next%20Steps%20Getting%20Top%20Marks%20for%20your%20next%20assignment/README.md)| [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=16397) |*Coming Soon* |
+| Ace your next assignment with .NET  | Diego Colombo | Visual Studio | [.NET and TDD Session](https://github.com/microsoft/dotnetconf-studentzone/tree/main/Next%20Steps%20Getting%20Top%20Marks%20for%20your%20next%20assignment/README.md)| [Watch On-Demand](https://youtu.be/SCJu7YPNtdQ?t=16397) | [Presentation](/decks/Next%20Steps%20Getting%20Top%20Marks%20for%20your%20next%20assignment.pdf) |
 
 
 ## Using this repo and development container

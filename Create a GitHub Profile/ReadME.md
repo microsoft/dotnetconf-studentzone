@@ -100,7 +100,7 @@ For a summary of all the available emojis and their codes, see ["Emoji cheat she
 #### GitHub Profiles 
 - [GitHub Profile ReadMe and Best Practice](https://aka.ms/GHProfileReadme)
 - [Emoji Cheatsheet adding Emojis and icons to your profile](https://www.webfx.com/tools/emoji-cheat-sheet/)
-- [Adding Dynamically generated GitHub stats for your readmes](https://anuraghazra/github-readme-stats)
+- [Adding Dynamically generated GitHub stats for your readmes](https://github.com/anuraghazra/github-readme-stats)
 
 #### GitHub & Azure for Students 
 - [Student Hub](https://aka.ms/learnstudent)

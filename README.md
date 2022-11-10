@@ -36,8 +36,6 @@ Puts a small, .NET Bot, bored cat, an enthusiastic dog, a feisty snake, a rubber
 
 # More Event and Setup Information
 
-![SpeakerBanner](images/EventCard_10Speaker.png)
-
 ## Agenda
 In each session, you will build an app or project to add to your .NET portfolio. You will build web apps, a mobile app, an ML project, and more!
 

@@ -1,7 +1,5 @@
 ![BannerImage](images/EventCard_10banner.png)
-# .NET Conf 2022 Student Zone 
-## ⭐November 7, 2022⭐
-Are you a student wanting to learn .NET? We have a pre-conference day with a ton of content you don't want to miss!  **You will walk away with a project portfolio on your very own portfolio website** – don't worry, we will build it right along with you. We will have two sessions, a midday session at 12:00 PM UTC and an evening session at 10:30 PM UTC.
+# .NET Conf 2022 Student Zone Content and Resources 
 
 ## Table of Contents
 - [.NET Conf 2022 Student Zone](#net-conf-2022-student-zone)
@@ -25,22 +23,9 @@ Are you a student wanting to learn .NET? We have a pre-conference day with a ton
 ## What is the .NET Conf Student Zone?
 As part of [.NET Conf this year](https://www.dotnetconf.net/), we are hosting a .NET Student Zone on Monday, November 7! This is a livestreamed event where experts will introduce you to .NET and and build awesome, follow-along projects. You will walk away with a project portfolio on your very own portfolio website. In total the event will be 4+ hours of content.
 
-## When is the Student Zone?
-
-⭐**November 7, 2022**⭐
-
-**Session 1** (12:00PM UTC | 07:00AM EST): Europe, Middle East, Africa, Asia Pacific Timezones
-
-**Session 2** (10:30PM UTC | 05:30PM EST): North and South America Timezones
-
-## Register for the event
-[Session 1 - Europe, Middle East, Africa, Asia Pacific - Register Now](http://aka.ms/dotnetstudentemea)
-
-[Session 2 - North and South America - Register Now](http://aka.ms/dotnetstudentamerica)
-
 ## Join the challenge to win SWAG 🎁🎉
 [Join the .NET Conf Student Zone Microsoft Learn, Cloud Skills Challenge and Win Swag](http://aka.ms/dotnetstudententry )
-After enjoying the .NET Conf Student Zone, you will be ready to complete the .NET Conf Student Zone Cloud Skills Challenge. The challenge is open to all students who registered for .NET Conf on November 7 and three lucky winners will get a .NET Conf SWAG bag!
+After enjoying the .NET Conf Student Zone, you will be ready to complete the .NET Conf Student Zone Cloud Skills Challenge. The challenge is open to all students who registered for .NET Conf on November 7 until November 29th and three lucky winners will get a .NET Conf SWAG bag!
 
 ## Digital Swag for the .NET Conf Student Zone 🎁🎉
 [Download .NET Bot digital pet for VSCode](https://aka.ms/vscodepet)
@@ -50,7 +35,6 @@ After enjoying the .NET Conf Student Zone, you will be ready to complete the .NE
 Puts a small, .NET Bot, bored cat, an enthusiastic dog, a feisty snake, a rubber duck, or Clippy 📎 in your VS Code editor to boost productivity.
 
 # More Event and Setup Information
-
 
 ![SpeakerBanner](images/EventCard_10Speaker.png)
 

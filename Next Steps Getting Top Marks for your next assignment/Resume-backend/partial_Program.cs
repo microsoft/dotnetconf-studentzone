@@ -1,4 +1,0 @@
-﻿public partial class Program
-{
-}
-

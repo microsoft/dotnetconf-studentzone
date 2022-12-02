@@ -66,8 +66,8 @@ a, .btn-link {
 
 
 .content{
-    background-color: #101010;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
     font-size: smaller;
     height: fit-content;
     min-height: 2000px;

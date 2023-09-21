@@ -1,13 +1,16 @@
 ![BannerImage](images/EventCard_10banner.png)
 # .NET Conf 2022 Student Zone Content and Resources 
 
+## Event Video
+[<img src="images/studentzone-22.png" alt="drawing" width="700"/>](https://www.youtube.com/live/9pbyBGnw8p0?si=q4bcmmNbkfuVB1fP ".NET Conf Student Zone 2022")
+> 🎥 Click the image above to watch the event!
+
+
 ## Table of Contents
-- [.NET Conf 2022 Student Zone](#net-conf-2022-student-zone)
-  - [⭐November 7, 2022⭐](#november-7-2022)
+- [.NET Conf 2022 Student Zone Content and Resources](#net-conf-2022-student-zone-content-and-resources)
+  - [Event Video](#event-video)
   - [Table of Contents](#table-of-contents)
   - [What is the .NET Conf Student Zone?](#what-is-the-net-conf-student-zone)
-  - [When is the Student Zone?](#when-is-the-student-zone)
-  - [Register for the event](#register-for-the-event)
   - [Join the challenge to win SWAG 🎁🎉](#join-the-challenge-to-win-swag-)
   - [Digital Swag for the .NET Conf Student Zone 🎁🎉](#digital-swag-for-the-net-conf-student-zone-)
 - [More Event and Setup Information](#more-event-and-setup-information)

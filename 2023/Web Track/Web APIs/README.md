@@ -1,8 +1,8 @@
-# Session Title
+# Minimal API + SPA, a perfect match
 
 ## Abstract
 
-*Add your session abstract here*
+ASP.NET Minimal API is a delightful way to create a HTTP backend for any application. Let's take a look at how we can combine that with a modern JavaScript framework to create a rich SPA experience.
 
 ## Link to Session Recording
 
@@ -31,4 +31,4 @@ In this session, we will discuss *insert your topic*.
 
 ## Speaker(s)
 
-*Add your speaker bio*
+[**Aaron Powell**](https://twitter.com/slace) - Aaron is a Developer Advocate at Microsoft with a passion for JavaScript, .NET, whacky ideas and running long distances.

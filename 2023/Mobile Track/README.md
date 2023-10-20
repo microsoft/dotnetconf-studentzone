@@ -1,8 +1,8 @@
-# Session Title
+# Get started building mobile & desktop apps with .NET
 
 ## Abstract
 
-*Add your session abstract here*
+What if you could write one app, but it runs everywhere?! Learn how to get started with .NET MAUI so you can build apps for Android, iOS, Windows, and Mac from a single codebase.
 
 ## Link to Session Recording
 
@@ -31,4 +31,6 @@ In this session, we will discuss *insert your topic*.
 
 ## Speaker(s)
 
-*Add your speaker bio*
+[**Maddy Montaquila**](https://twitter.com/maddymontaquila) - Maddy Montaquila is a Senior Product Manager on the .NET MAUI team. She loves helping developers be more productive by creating tooling to help them write code!
+
+[**Becky Buckler**](https://twitter.com/BucklerBecky) - After a decade of teaching math and art, Becky Buckler made the switch into tech. She is currently a Product Manager on the .NET Growth team.

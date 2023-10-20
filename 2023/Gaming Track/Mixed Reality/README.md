@@ -1,8 +1,8 @@
-# Session Title
+# Coding a Drone Using .NET and ChatGPT AI & Flying in MR!
 
 ## Abstract
 
-*Add your session abstract here*
+We'll use Unity 3D, .NET, and focus on UDP Client-Server networking for drone communication. ChatGPT AI assists programmers, offering insights to boost decision-making and efficiency. We'll highlight AI's role in elevating mixed reality experiences, and discover Azure AI's contribution to drone AI capabilities.
 
 ## Link to Session Recording
 
@@ -31,4 +31,4 @@ In this session, we will discuss *insert your topic*.
 
 ## Speaker(s)
 
-*Add your speaker bio*
+[**Zaid Zaim**](https://twitter.com/ZaidZaim2k) - Zaid Zaim, a Spatial Computing Expert and three-time Microsoft MVP, is known for his innovative work in augmented reality and Metaverse. A celebrated technopreneur, Zaid has spoken at TED Conferences, GITEX, WeAreDevelopers World Congress and is a force at ignore gravity, focused on innovation and solving organizational challenges with advanced technology.

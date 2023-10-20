@@ -1,8 +1,8 @@
-# Session Title
+# Games in Godot! Let’s make a classic Paddle game with C#!
 
 ## Abstract
 
-*Add your session abstract here*
+Let’s start from the ground up and get familiar with Godot to recreate a classic game. We’ll add two paddles, a ball, and some walls and bounce around!
 
 ## Link to Session Recording
 
@@ -31,4 +31,4 @@ In this session, we will discuss *insert your topic*.
 
 ## Speaker(s)
 
-*Add your speaker bio*
+**Michael Hawker** - Michael Hawker is a Senior Software Engineer at Microsoft. In his spare time, he loves tinkering with board and video game design and programming.

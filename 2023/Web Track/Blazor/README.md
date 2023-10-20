@@ -1,8 +1,8 @@
-# Session Title
+# Building an intelligent app with Blazor and Azure OpenAI
 
 ## Abstract
 
-*Add your session abstract here*
+Let's build a Blazor application to summarise lengthy YouTube video using Azure OpenAI! Throughout this session, I'm going to quickly show you how to set up Blazor WebAssembly application, build reusable components, talk to backend APIs and integrate with JavaScript UI components.
 
 ## Link to Session Recording
 
@@ -31,4 +31,4 @@ In this session, we will discuss *insert your topic*.
 
 ## Speaker(s)
 
-*Add your speaker bio*
+[**Justin Yoo**](https://twitter.com/justinchronicle) - Justin is a Senior Cloud Advocate from Microsoft. He is always looking for easy and convenient ways to build intelligent applications using the cutting-edge technologies with .NET and Azure.

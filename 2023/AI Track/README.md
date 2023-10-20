@@ -1,8 +1,8 @@
-# Session Title
+# Building Your Own Course Assistant with AI
 
 ## Abstract
 
-*Add your session abstract here*
+Join us for this session where we'll show how you can use AI to build your own course assistant to help you excel in school!
 
 ## Link to Session Recording
 
@@ -31,4 +31,6 @@ In this session, we will discuss *insert your topic*.
 
 ## Speaker(s)
 
-*Add your speaker bio*
+[**Luis Quintanilla**](https://www.lqdev.me/hi) - Luis is a Program Manager at Microsoft who's passionate about helping others get started building AI solutions in .NET.
+
+**Kinfey Lo** - Kinfey Lo is Microsoft Senior Cloud Advoate, focus on artificial intelligence and big data applications.

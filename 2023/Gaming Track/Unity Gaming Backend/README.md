@@ -1,8 +1,8 @@
-# Session Title
+# .NET Backend Mastery for Game Development
 
 ## Abstract
 
-*Add your session abstract here*
+Dive deep into the world of .NET and discover its unparalleled capabilities in creating resilient, scalable backends for your gaming applications. This session will unveil the secrets to harnessing .NET’s robust features to enhance your game’s backend architecture.
 
 ## Link to Session Recording
 
@@ -31,4 +31,4 @@ In this session, we will discuss *insert your topic*.
 
 ## Speaker(s)
 
-*Add your speaker bio*
+[**Eric Mwenda**](https://twitter.com/eric__mwenda) - As a seasoned game developer and backend engineer, my creations reflect a blend of engaging gameplay and seamless performance. Using the depth of .NET, I’m actively reshaping how players experience modern gaming.

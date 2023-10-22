@@ -1,0 +1,4975 @@
+[
+  {
+    "groupId": 201301,
+    "groupName": "1",
+    "sessions": [
+      {
+        "questionAnswers": [],
+        "id": "544661",
+        "title": "Welcome to .NET 8",
+        "description": ".NET 8 is here! Find out what is new for .NET developers across all workloads including cloud, mobile, desktop, web, AI, IoT, and so much more.",
+        "startsAt": "2023-11-14T08:00:00",
+        "endsAt": "2023-11-14T09:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "4f8aeb50-479b-40b8-84ae-58f6f2efa31d",
+            "name": "Damian Edwards"
+          },
+          {
+            "id": "2d5c865e-3937-4a06-a940-3bcfc28719e0",
+            "name": "Maria Naggaga"
+          },
+          {
+            "id": "3d73b250-c88c-4819-9e0a-0a89bffc8950",
+            "name": "Safia Abdalla"
+          },
+          {
+            "id": "932536a7-4820-4976-8339-a87ce21ddffb",
+            "name": "David Fowler"
+          },
+          {
+            "id": "dc205f71-a4d5-449e-a464-902ffc62e550",
+            "name": "Gaurav Seth"
+          },
+          {
+            "id": "9281abeb-8288-458e-b69e-9556a3c1cd76",
+            "name": "Daniel Roth"
+          },
+          {
+            "id": "44a02d6c-e5c0-44c5-b1a9-239c5e7be214",
+            "name": "Glenn Condron"
+          },
+          {
+            "id": "a0dc3822-2379-40ff-8ba4-08f28269c4c5",
+            "name": "Maddy Montaquila"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201241,
+                "name": ".NET MAUI"
+              },
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201265,
+                "name": "Containers"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201301,
+                "name": "1"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "533922",
+        "title": "Full stack web UI with Blazor in .NET 8",
+        "description": "In .NET 8 you can deliver the best web app experiences entirely in Blazor using Blazor's convenient component model. You can build your entire web app in Blazor without the needed for writing JavaScript or mixing web frameworks. In this session you'll see how you can use Blazor's new server-side rendering support to power your web apps from the server for maximum performance and scalability. You'll see how you can easily add advanced capabilities like streaming rendering and enhanced navigation & form handling to further optimize the user experience. Then add rich client-side interactivity wherever it is needed using Blazor Server or Blazor WebAssembly.",
+        "startsAt": "2023-11-14T09:00:00",
+        "endsAt": "2023-11-14T10:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "9281abeb-8288-458e-b69e-9556a3c1cd76",
+            "name": "Daniel Roth"
+          },
+          {
+            "id": "9b9c186e-5392-4c0a-94b4-455f14316f6f",
+            "name": "Steve Sanderson"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201301,
+                "name": "1"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "549748",
+        "title": "Building Cloud Native apps with .NET 8",
+        "description": null,
+        "startsAt": "2023-11-14T10:00:00",
+        "endsAt": "2023-11-14T11:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "44a02d6c-e5c0-44c5-b1a9-239c5e7be214",
+            "name": "Glenn Condron"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201273,
+                "name": "Cloud"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201301,
+                "name": "1"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "531498",
+        "title": "What's New in C# 12",
+        "description": "A new .NET means a new C#! Dustin and Mads will take you through the new features in C# 12, including collection expressions and primary constructors.",
+        "startsAt": "2023-11-14T12:00:00",
+        "endsAt": "2023-11-14T12:45:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "87fc782c-717c-4517-adaa-c54d2d7343a8",
+            "name": "Mads Torgersen"
+          },
+          {
+            "id": "02ae7a7d-27d4-47fa-8afd-4900e96754f7",
+            "name": "Dustin Campbell"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201301,
+                "name": "1"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "542255",
+        "title": "Packing light with VS Code and the C# Dev Kit",
+        "description": "Join us for an enlightening (get it?) session on lightweight C# development with the all new C# DevKit extension and Visual Studio Code.  \r\n\r\nIn this session, we'll explore the key features of the C# Dev Kit, as well as some valuable tips and tricks for getting the most out of Visual Studio Code. Learn how to navigate your codebase with ease, utilize debugging tools effectively and map the concepts you already know onto an editor that might be new to you.  \r\n\r\nWhether you're a seasoned developer or just starting with C#, this session will provide you with practical insights and techniques to make your C# development lightweight and efficient.  ",
+        "startsAt": "2023-11-14T12:45:00",
+        "endsAt": "2023-11-14T13:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "35a1cede-39b8-4fa6-8734-5980ea5f0ecd",
+            "name": "Burke Holland"
+          },
+          {
+            "id": "a356a14d-3848-4af4-8bb8-c54c513fbed0",
+            "name": "Leslie Richardson"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201260,
+                "name": "Visual Studio Code"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201301,
+                "name": "1"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536754",
+        "title": "Entity Framework Core 8: Improved JSON, queryable collections , and more…",
+        "description": "Entity Framework Core 8 (EF8) introduces several new highly-requested features, as well as major underlying infrastructure changes setting up EF Core for future enhancements. The new EF8 features include:\r\n\r\n- Further JSON support in relational databases, including:\r\n  - Use JSON to send multi-value parameters for translations such as `List.Contains`\r\n  - Mapping and querying collections of primitive types\r\n  - Mapping to JSON columns using SQLite\r\n  - Leverage the new support for performance improvements, e.g. when using Contains\r\n- Use C# structs with DDD value object semantics in your classes while still splitting the contents to multiple columns in the database \r\n- Raw SQL queries for unmapped types\r\n- Official `HierarchyId` support for EF Core on SQL Server\r\n- Improvements to lazy loading and the change tracking APIs\r\n- Many small enhancements to existing features\r\n\r\nJoin Arthur Vickers and Shay Rojansky from the EF team for a tour of these new features, with demos showing the JSON mapping and queries, and value type support.\r\n",
+        "startsAt": "2023-11-14T13:30:00",
+        "endsAt": "2023-11-14T14:15:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "91b749c4-fcd1-4246-bb66-37e2b0c9c4bc",
+            "name": "Arthur Vickers"
+          },
+          {
+            "id": "74a32bd2-f0f5-4806-ba4d-46b74164c27e",
+            "name": "Shay Rojansky"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201252,
+                "name": "Entity Framework"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201301,
+                "name": "1"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "531199",
+        "title": ".NET 💖 AI",
+        "description": "Want to add LLM AI easily to your app? That's what the open-source project \"Semantic Kernel\" was built for in the wake of the ChatGPT explosion of late 2022. Learn about Semantic Kernel's latest advances for building AI Plugins and Planners.",
+        "startsAt": "2023-11-14T14:15:00",
+        "endsAt": "2023-11-14T15:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "aa3667da-15b3-4b83-9ca4-63d8ae087144",
+            "name": "John Maeda"
+          },
+          {
+            "id": "381fef81-5d67-4da1-9f90-2b4f09c0c0bf",
+            "name": "Scott Hanselman"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201285,
+                "name": "group-ai"
+              },
+              {
+                "id": 201307,
+                "name": "artificial-intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201301,
+                "name": "1"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536439",
+        "title": "Build Intelligent Apps with .NET and Azure",
+        "description": "Join us for this exciting session and discover how you can leverage the power of AI to create the next generation of intelligent apps that transform productivity, automate processes, and derive key insights. Across the entire stack, from the runtime, to the libraries, SDKs and tools, to the services, .NET and Azure make the process of building intelligent apps more productive. ",
+        "startsAt": "2023-11-14T15:00:00",
+        "endsAt": "2023-11-14T15:45:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "d95a2cd2-085b-4c70-8c31-490f707fa434",
+            "name": "Luis Quintanilla"
+          },
+          {
+            "id": "2d5c865e-3937-4a06-a940-3bcfc28719e0",
+            "name": "Maria Naggaga"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201240,
+                "name": "Machine Learning"
+              },
+              {
+                "id": 201307,
+                "name": "artificial-intelligence"
+              },
+              {
+                "id": 201308,
+                "name": "chatgpt"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201301,
+                "name": "1"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "530747",
+        "title": "What’s New in .NET MAUI",
+        "description": "Companies worldwide are building mobile and desktop apps with .NET MAUI, and .NET 8 brings greater stability, memory management, and new desktop features to everyone. In this session we’ll introduce you to what’s new in .NET 8, how companies are being successful shipping production quality applications with .NET MAUI, and how you can get the most out of Visual Studio and Visual Studio Code.",
+        "startsAt": "2023-11-14T15:45:00",
+        "endsAt": "2023-11-14T16:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "9fd10a46-6e2a-4eae-9b6d-9cf8ff0ecf15",
+            "name": "David Ortinau"
+          },
+          {
+            "id": "a0dc3822-2379-40ff-8ba4-08f28269c4c5",
+            "name": "Maddy Montaquila"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201241,
+                "name": ".NET MAUI"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201301,
+                "name": "1"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "525691",
+        "title": "Tiny, fast ASP.NET Core APIs with native AOT",
+        "description": ".NET 8 introduces support for publishing ASP.NET Core applications to native AOT for lightning-fast startup times & small, self-contained, native executables & containers. This session will provide an overview of when you might want to consider publishing native AOT for your ASP.NET Core APIs and demonstrate the benefits and compatibility considerations.",
+        "startsAt": "2023-11-14T16:30:00",
+        "endsAt": "2023-11-14T17:15:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "4f8aeb50-479b-40b8-84ae-58f6f2efa31d",
+            "name": "Damian Edwards"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201301,
+                "name": "1"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      }
+    ],
+    "isDefault": false
+  },
+  {
+    "groupId": 201302,
+    "groupName": "2",
+    "sessions": [
+      {
+        "questionAnswers": [],
+        "id": "536366",
+        "title": "Improving your application telemetry using .NET 8 and Open Telemetry",
+        "description": "The 3 pillars of observability are Logging, Metrics and Distributed tracing. Learn about the improvements we have made in .NET 8 including logging extensions for enrichment and data redaction, and the new metrics support which follows the Open Telemetry semantic conventions.",
+        "startsAt": "2023-11-15T09:00:00",
+        "endsAt": "2023-11-15T09:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "5b1fe68f-f25e-40c3-b91a-136ff6d004a4",
+            "name": "Noah Falk"
+          },
+          {
+            "id": "aad16ff5-e2a2-4e40-9fc8-706cd67db8e4",
+            "name": "Sam Spencer"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201254,
+                "name": "Microservices"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536364",
+        "title": "Building resilient cloud services with .NET 8",
+        "description": "This is a deep dive into the .NET 8 resiliency features and integration with the popular Polly library.",
+        "startsAt": "2023-11-15T09:30:00",
+        "endsAt": "2023-11-15T10:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "ba77f7f6-77cd-4718-b4ac-eac3d87823ad",
+            "name": "Martin Tomka"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201254,
+                "name": "Microservices"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "542285",
+        "title": "App Service the best place to host your .NET 8 Web Apps",
+        "description": ".NET 8 is supported on App Service on day 0! \r\n\r\nLearn about some of the new exciting platform features that will take your .NET 8 workloads to the next level.",
+        "startsAt": "2023-11-15T10:00:00",
+        "endsAt": "2023-11-15T10:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "40cebd6f-b570-4d86-8059-e0152b99d21d",
+            "name": "Byron Tardif"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201253,
+                "name": "Linux Dev"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              },
+              {
+                "id": 201265,
+                "name": "Containers"
+              },
+              {
+                "id": 201273,
+                "name": "Cloud"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "547613",
+        "title": "In .NET 8, ASP.NET Ate",
+        "description": "Learn all about new features coming to the ASP.NET stack, from metrics support to improved route tooling, that are guaranteed to supercharge your development.",
+        "startsAt": "2023-11-15T10:30:00",
+        "endsAt": "2023-11-15T11:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "3d73b250-c88c-4819-9e0a-0a89bffc8950",
+            "name": "Safia Abdalla"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "545510",
+        "title": "What's new in System.Text.Json",
+        "description": "Our focus for System.Text.Json in this release has been to substantially improve the user experience when using the library in Native AOT applications, as well as delivering a number of highly requested features and reliability enhancements. These include support for populating read-only members, customizable unmapped member handling, support for interface hierarchies and snake case and kebab case naming policies and much more.",
+        "startsAt": "2023-11-15T11:00:00",
+        "endsAt": "2023-11-15T11:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "896db81f-a2ac-4b71-a368-f91d7e2fcc47",
+            "name": "Eirik George Tsarpalis"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201270,
+                "name": ".NET Runtime"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "549736",
+        "title": "Building and scaling cloud-native, intelligent applications on Azure and .NET",
+        "description": "Learn how to run cloud-native serverless and container applications in Azure using Azure Kubernetes Service and Azure Container Apps. We help you choose the right service for your apps. We show you how Azure is the best platform for hosting cloud native and intelligent apps, and an app using Azure OpenAI Service and Azure Data. Learn all the new capabilities of our container platforms including how to deploy, test for scale, monitor, and much more.",
+        "startsAt": "2023-11-15T11:30:00",
+        "endsAt": "2023-11-15T12:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "a86c163d-8699-4a44-99af-aa894d624d5f",
+            "name": "Scott Hunter"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201237,
+                "name": "Azure"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "549119",
+        "title": "Leveraging the power of the .NET platform in Azure Functions",
+        "description": "Recent updates to Azure Functions make it easier than ever to build scalable, event-driven, serverless applications in .NET! In this session, the Azure Functions team will show you how to leverage .NET 8, ASP.NET Core integration, the latest Azure SDKs, and more so that you can make the most of your function projects.",
+        "startsAt": "2023-11-15T12:30:00",
+        "endsAt": "2023-11-15T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "0fb164bb-0cd7-4388-aa1b-d9d04f36f4f2",
+            "name": "Matthew Henderson"
+          },
+          {
+            "id": "23c2300b-e66a-43a0-b624-924a56db14b0",
+            "name": "Fabio Cavalcante"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "549725",
+        "title": "Visual Studio Updates for .NET Devs",
+        "description": null,
+        "startsAt": "2023-11-15T13:00:00",
+        "endsAt": "2023-11-15T13:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "cc8b64d8-34b2-4895-a011-fa3616504be4",
+            "name": "Sayed Hashimi"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201259,
+                "name": "Visual Studio"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "537116",
+        "title": "ASP.NET Core Authentication Simplified",
+        "description": "An introduction to the new auth features introduced in ASP.NET Core 8 that make it easier to set up and customize local authentication for client applications (SPA, Blazor, mobile, etc...)\r\nNew features include: the new MapIdentityApi method which adds Identity HTTP APIs ( /register, /login, etc...) and can be used by mobile, desktop and SPA applications; a new opaque bearer token authentication handler; and new Identity Blazor Components.",
+        "startsAt": "2023-11-15T13:30:00",
+        "endsAt": "2023-11-15T14:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "41c46354-b30d-4b6e-9784-63f448178f75",
+            "name": "Stephen Halter"
+          },
+          {
+            "id": "e4db7e19-394b-4cd9-bc92-9863c54c954f",
+            "name": "Jeremy Likness"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "542716",
+        "title": "What's new with WinForms",
+        "description": "Since we added WinForms to .NET in .NET Core 3.0 we've been making a lot of improvements for our developers. This session will go over some of these improvements in both the runtime and the Visual Studio WinForms designer. You'll see that WinForms is alive and well in .NET!",
+        "startsAt": "2023-11-15T14:00:00",
+        "endsAt": "2023-11-15T14:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "95af0f9a-8323-4527-bdd4-ea1353567c90",
+            "name": "Merrie McGaw"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201247,
+                "name": "Desktop"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "549789",
+        "title": ".NET Containers advancements in .NET 8",
+        "description": ".NET 8 brings new advancements in performance in security not just for your apps, but for the containers that run them. Learn more about changes to the Microsoft base images to support rootless execution, new container images that support more secure deployment and entirely new scenarios like Ahead of Time compilation. Then, see how the SDK Container publishing tooling that builds on these to make container deployments easier than ever.",
+        "startsAt": "2023-11-15T14:30:00",
+        "endsAt": "2023-11-15T15:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "57627257-f9a6-488c-aa80-84bb4b6bb2d0",
+            "name": "Chet Husk"
+          },
+          {
+            "id": "dafdb85e-0f1d-4ae4-8f54-02e24fb7a538",
+            "name": "Richard Lander"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201265,
+                "name": "Containers"
+              },
+              {
+                "id": 201270,
+                "name": ".NET Runtime"
+              },
+              {
+                "id": 201271,
+                "name": ".NET Developer Story"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536807",
+        "title": "Using .NET and Azure to build a green supercomputer for Vestas",
+        "description": "Vestas is the world’s most sustainable energy company, and they wanted to reduce their carbon footprint even further by optimizing their wind turbine simulations. \r\n\r\nThese simulations are compute-intensive and require a lot of resources and energy. \r\n\r\nIn this session, we will show you how we helped Vestas achieve their goal by building a green workload in Azure, using .NET and various Azure services. You will learn how we:\r\n- Used location and time shifting to run your workload with lower carbon emissions\r\n- Utilized the hardware efficiently to reduce waste and cost\r\n- Leveraged Azure Event Grid, Azure Functions, and Azure Batch to create a scalable and resilient event-driven architecture\r\n- Built a Blazor frontend and an API backend using Azure Web Apps\r\n",
+        "startsAt": "2023-11-15T15:00:00",
+        "endsAt": "2023-11-15T15:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "de0e5528-b52d-43ec-8daa-e730eaac89d9",
+            "name": "Anders Lybecker"
+          },
+          {
+            "id": "cb70e0f2-0f0b-4b8f-b3f4-a9326309a1b2",
+            "name": "Tess Ferrandez-Norlander"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201268,
+                "name": "Web API"
+              },
+              {
+                "id": 201270,
+                "name": ".NET Runtime"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "529832",
+        "title": "Build hybrid apps with .NET MAUI",
+        "description": "In this session learn why you would choose a hybrid web approach to building native apps with .NET MAUI in .NET 8. Learn about Blazor hybrid and how you can build full-featured native apps for Windows, Mac, iOS and Android within a single codebase that can take advantage of your web skills. Take a tour of some of the new capabilities and see how you can reuse UI and build solutions that target the web at the same time. Also get a peek at how you can leverage other web frameworks in .NET MAUI. ",
+        "startsAt": "2023-11-15T15:30:00",
+        "endsAt": "2023-11-15T16:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "3e1d125a-f57f-4d42-bea9-2ebfc098ab8b",
+            "name": "Beth Massi"
+          },
+          {
+            "id": "965fd62f-34ba-43eb-89e7-9002a6842fb9",
+            "name": "Eilon Lipton"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201241,
+                "name": ".NET MAUI"
+              },
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201247,
+                "name": "Desktop"
+              },
+              {
+                "id": 201246,
+                "name": "Mobile"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "544728",
+        "title": "Migrating to Azure with Azure AppCAT for .NET",
+        "description": "This session introduces the Azure Application and Code Assessment Toolkit for .NET (Azure AppCAT for .NET), a Visual Studio extension that helps identify code and configuration in your solution that need reviewed prior to migrating the solution to Azure.\r\n\r\nAzure AppCAT for .NET works with both .NET Framework and .NET 6+, providing useful insight to accelerate your migration from on-premises deployments to Azure App Service, Azure Kubernetes Service, and or Azure Container Apps.",
+        "startsAt": "2023-11-15T16:00:00",
+        "endsAt": "2023-11-15T16:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "3eec5e30-947a-435a-9589-4d20e543e53f",
+            "name": "Mike Rousos"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201274,
+                "name": "Modernization"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536813",
+        "title": "Everyday C# - A blend of modern and time tested features",
+        "description": "Everyday C#\r\nC# innovates quickly. Your team needs to chart a course to adopt new features most applicable to you and your team. Everyday C# defines the subset of C# we expect developers to learn first when they begin learning C#. We include the latest features when they are ones that we expect most developers will use. You can examine the set of features included (and excluded) as a starting point for what features to adopt in your application. You can use the same process we used to define your team's version of \"Everyday C#\". You'll adapt our process to match your environment. This gives your team guidance on when to adopt each new language innovation, and when to continue your current practices.",
+        "startsAt": "2023-11-15T16:30:00",
+        "endsAt": "2023-11-15T17:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "2a0d4e4c-09df-45a6-8fc3-2685e9a90cd9",
+            "name": "Bill Wagner"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "535001",
+        "title": "Best Practices for Cross-Platform .NET 8 Applications",
+        "description": "You shouldn’t need to ever write code from scratch for commonly used functions. \r\n\r\nMicrosoft has extracted a host of capabilities outside of ASP.NET and made them available through Microsoft Extensions – covering hosting, logging, configuration, etc. In turn, the open-source Uno Platform Extensions are based on Microsoft Extensions and enable cross-platform scenarios for .NET applications such as Navigation, Localization and more.  In addition, we will cover the new Reactive extension for cross-platform scenarios inspired by Kotlin Flows, Scala Streams and Reactive Extensions  \r\n\r\nIn this session we will show how you can bootstrap a new Uno Platform application and get started with proper architecture in minutes, for work that would usually take weeks to do.",
+        "startsAt": "2023-11-15T17:00:00",
+        "endsAt": "2023-11-15T17:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "e195f3c7-4eba-4c7f-9cdd-fc0bc151d47f",
+            "name": "Nick Randolph"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201247,
+                "name": "Desktop"
+              },
+              {
+                "id": 201246,
+                "name": "Mobile"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "532032",
+        "title": "Vertical Slice Architecture: How Does it Compare to Clean Architecture",
+        "description": "Is Vertical Slice Architecture the next big thing or just as cool new kid?\r\n\r\nEnterprise software development requires you to choose the right architecture. This session with Luke Parker will provide a realistic dive into Vertical Slice Architecture (VSA) with .NET; showcasing the potential shift from Clean Architecture (CA) to VSA.\r\n\r\nYou will learn the benefits and drawbacks of both Clean Architecture & VSA. We'll reflect on some changes to increase development speed, focusing on a modern Web API, utilising the latest C# features.\r\n\r\nSee Luke demonstrate how to architect an application that is maintainable and scalable. Utilising a template for faster development, you can get up and running very quickly if you know how!\r\n\r\nJoin us and get ahead of the curve, and be the one driving innovation in your .NET application.",
+        "startsAt": "2023-11-15T17:30:00",
+        "endsAt": "2023-11-15T18:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "26311de4-eff7-4f17-8569-e3159bedf8d1",
+            "name": "Luke Parker"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201268,
+                "name": "Web API"
+              },
+              {
+                "id": 201278,
+                "name": "Deeper .NET"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "532092",
+        "title": "Generative AI for the .NET Developer",
+        "description": "Have you ever wondered how to create intelligent apps with .NET and Azure OpenAI? Do you want to learn how to leverage the power of large language models like ChatGPT to generate natural and engaging conversations? Do you want to see how AI can build AI apps? If you answered yes to any of these questions, then this talk is for you!\r\n\r\nIn this talk, you will discover how to use .NET, C#, and Azure to create amazing applications with OpenAI and other generative AI technologies. You will learn the fundamental concepts of this latest wave of AI, the benefits and challenges of using .NET with it, and the best practices and tips for developing intelligent apps. You will also see a live demo of how AI can build AI apps using .NET and OpenAI.\r\n\r\nAnd yes, this abstract was created using Bing's Chat 😀",
+        "startsAt": "2023-11-15T18:00:00",
+        "endsAt": "2023-11-15T18:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "9abda5b3-cde8-40aa-aa4c-933857e65ae6",
+            "name": "Aaron Powell"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201307,
+                "name": "artificial-intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "533209",
+        "title": "Bye ASP.NET WebForm, Welcome Blazor: Transform your ASP.NET WebForm Chatbot in no time, and beyond!",
+        "description": "Is your chatbot still running on a legacy ASP.NET WebForm app, and you’re wondering if it’s time for an upgrade? In today's fast-paced tech world, remaining stagnant is not an option. This session is designed to provide you with a step-by-step guide on how to seamlessly migrate your existing chatbot from the old ASP.NET WebForm to the newer, more robust Blazor with minimal disruptions.\r\n\r\nThe presentation aims to offer a balanced perspective by diving deep into the pros and cons of making the move to Blazor. While the benefits like improved performance, scalability, and modern architecture are compelling, it's crucial to consider potential downsides such as the learning curve and short-term disruptions. This comprehensive analysis will empower developers, software architects, and decision-makers to make informed choices that are right for their specific needs and scenarios.\r\n\r\nOne of the session's highlights will be a thorough examination of Blazor’s versatility. We'll explore how Blazor can be configured for various applications—ranging from server to WebAssembly, and even to MAUI for native applications. These insights will provide attendees with a wider lens to evaluate the Blazor's capabilities, and how it fits into a diversified technology stack, adding more value than ever to your projects.\r\n\r\nThroughout the session, I'm going to deliver:\r\n\r\n1. **Case Study**: A real-world example of a chatbot currently running on a legacy ASP.NET WebForm app, focusing on its limitations.\r\n2. **Step-by-Step Migration Guide**: Concrete steps on how to transition from ASP.NET WebForm to Blazor with minimal operational disruptions.\r\n3. **Pros and Cons**: A balanced perspective on the benefits and challenges of migrating to Blazor, aiding attendees in making informed decisions.\r\n4. **Blazor's Versatility**: Detailed insights into how Blazor can be configured for different applications—Blazor Server, Blazor WebAssembly, and MAUI.\r\n\r\nAfer the session, attendees will get those takeaways:\r\n\r\n1. **Actionable Migration Plan**: Attendees will walk away with a detailed roadmap for migrating from ASP.NET WebForm to Blazor.\r\n2. **Informed Decision-making**: The discussion of pros and cons will empower attendees to decide if migration aligns with their organizational goals.\r\n3. **Understanding Blazor's Capabilities**: Attendees will gain a thorough understanding of the versatility of Blazor in different application settings.\r\n4. **Up-to-date Skillset**: Insights gained will ensure attendees are abreast of current technologies, aiding their personal and professional development.\r\n5. **Confidence to Act**: Attendees will be empowered to make and execute decisions regarding the migration of existing applications to newer frameworks.\r\n",
+        "startsAt": "2023-11-15T18:30:00",
+        "endsAt": "2023-11-15T19:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "37bef494-55de-4dd2-bd9c-3518ad0ad271",
+            "name": "Justin Yoo"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201259,
+                "name": "Visual Studio"
+              },
+              {
+                "id": 201260,
+                "name": "Visual Studio Code"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              },
+              {
+                "id": 201274,
+                "name": "Modernization"
+              },
+              {
+                "id": 201275,
+                "name": "Serverless"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "526884",
+        "title": "Create an enterprise Copilot extension for Visual Studio Code through Semantic Kernel",
+        "description": "GitHub Copilot is very popular with enterprise users, but how to inject enterprise coding specifications, relevant coding requirements, and documentation content for enterprises? It's time to create a Copilot Extension that's right for a specific enterprise scenario. This session will show you how to build an enterprise-level Visual Studio Code Extension using .NET with Semantic Kernel and Nodejs ",
+        "startsAt": "2023-11-15T19:00:00",
+        "endsAt": "2023-11-15T19:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "49731fe6-d27c-4923-8e34-b982ff8087c0",
+            "name": "Kinfey Lo"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201240,
+                "name": "Machine Learning"
+              },
+              {
+                "id": 201260,
+                "name": "Visual Studio Code"
+              },
+              {
+                "id": 201307,
+                "name": "artificial-intelligence"
+              },
+              {
+                "id": 201308,
+                "name": "chatgpt"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "535331",
+        "title": "Concurrent Hosted Service in Net 8",
+        "description": "Before .NET 8, hosted services were started and stopped sequentially, with each service's StartAsync and StopAsync methods awaiting completion before the next service's methods were triggered. This default behavior, though mostly fine, could cause problems, particularly with slow services delaying the application's overall start or shutdown. In .NET 8, developers now have the option to enable concurrent start and/or stop behavior for registered hosted services using the new properties in HostOptions. This allows services to start and stop concurrently, potentially improving application startup and shutdown times.",
+        "startsAt": "2023-11-15T19:30:00",
+        "endsAt": "2023-11-15T20:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "efdc3ebf-a3ab-4623-b569-55aef652c0a1",
+            "name": "Saeed Esmaeelinejad"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201270,
+                "name": ".NET Runtime"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "537055",
+        "title": "We are not just a .NET Community, we run our community on .NET",
+        "description": "We are the largest Open-Source Software [OSS] community with its longest running (> 10 years) tech meetup in Bombay. \r\n\r\nAnd as such we are mostly houseful [\r\nhttps://twitter.com/hackmum/status/1694780944778186885?s=20]. As a community that is committed to diversity and inclusiveness, most of our efforts and time is expended on registration triaging. And the next biggest friction in our meetup management is to ensure attendee check-ins and check-outs for building/civic code adherence  \r\n\r\nSo as a tech community, to solve this, we did the only thing we love to do: build an app. That too on .NET 8. We will tell you why .net8 is the best .NET yet and share what are the gotchas we had to look out for.  \r\n\r\nAnd we wouldn't be an OSS community, if it's not on GitHub [https://github.com/HackerspaceMumbai/Visage/issues/69]. Contributors welcome 🙏",
+        "startsAt": "2023-11-15T20:00:00",
+        "endsAt": "2023-11-15T20:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "32dd0ebc-cbfb-4f45-acf4-cfc60c55f573",
+            "name": "Augustine Correa"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201241,
+                "name": ".NET MAUI"
+              },
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201248,
+                "name": "DevOps"
+              },
+              {
+                "id": 201252,
+                "name": "Entity Framework"
+              },
+              {
+                "id": 201254,
+                "name": "Microservices"
+              },
+              {
+                "id": 201264,
+                "name": "Soft Skills"
+              },
+              {
+                "id": 201259,
+                "name": "Visual Studio"
+              },
+              {
+                "id": 201265,
+                "name": "Containers"
+              },
+              {
+                "id": 201256,
+                "name": "Open Source"
+              },
+              {
+                "id": 201267,
+                "name": "Power Platform"
+              },
+              {
+                "id": 201269,
+                "name": "Microsoft Teams"
+              },
+              {
+                "id": 201277,
+                "name": "GitHub"
+              },
+              {
+                "id": 201275,
+                "name": "Serverless"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "526212",
+        "title": "Understanding Role-Based Access Control with ASP.NET Web APIs",
+        "description": "When you're building an application and want to restrict access to resources and information for different kinds of users, Role-Based Access Control (RBAC) is one of the best, most structured models you can implement. One of the simplest ways to achieve RBAC in web APIs is by leveraging JSON Web Tokens (JWTs) and adding roles as claims.\r\n\r\nIn this session, join in as we discuss the importance of API security and how you can use JWTs to implement the RBAC pattern in an ASP.NET Web API and better secure your API endpoints.\r\n\r\n",
+        "startsAt": "2023-11-15T20:30:00",
+        "endsAt": "2023-11-15T21:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "31431667-d6c2-43d2-a844-fa7701695595",
+            "name": "Aditya Oberai"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201252,
+                "name": "Entity Framework"
+              },
+              {
+                "id": 201259,
+                "name": "Visual Studio"
+              },
+              {
+                "id": 201268,
+                "name": "Web API"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536258",
+        "title": "Spatial Data with Entity Framework Core and .NET MAUI",
+        "description": "Entity Framework Core is great for performing crud operations, but did you know that you can go beyond basic relational queries with Entity Framework Core? Do you need to store spatial data or find the nearest points of interest to a given location?\r\n\r\nIf you answered Yes to any of the above questions, this is the talk you do not want to miss.\r\n\r\nDevelopers working with Entity Framework Core will learn how to store spatial data with Entity Framework Core and NetTopologySuite, how to index spatial data, and how to run spatial queries. Finally, attendees will see how to visualize spatial search results in a .NET MAUI app.\r\n\r\nJoin me for a demo-rich session and learn about Entity Framework Core features that you will be able to apply right after the session.",
+        "startsAt": "2023-11-15T21:00:00",
+        "endsAt": "2023-11-15T21:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "85ec5d6c-3f29-4286-be57-c6e4d909cccb",
+            "name": "Giorgi Dalakishvili"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201241,
+                "name": ".NET MAUI"
+              },
+              {
+                "id": 201249,
+                "name": "Data"
+              },
+              {
+                "id": 201252,
+                "name": "Entity Framework"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "528114",
+        "title": "Building generative AI powered bots with Teams Toolkit and AI library for .NET",
+        "description": "In this session, you'll discover the new features of Teams Toolkit for Visual Studio and understand how it helps .NET developers to easily build, debug and deploy apps for Microsoft Teams. \r\n\r\nYou'll also get introduced to the new Teams AI library for .NET and learn how you can build your first generative AI powered Teams bot using Teams Toolkit for Visual Studio and Teams AI library for .NET.",
+        "startsAt": "2023-11-15T21:30:00",
+        "endsAt": "2023-11-15T22:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "586a1630-29e8-43f4-9e66-9288a268e4ff",
+            "name": "Ayca Bas"
+          },
+          {
+            "id": "47e7410f-724d-457b-b3a4-153610343469",
+            "name": "John Miller"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201259,
+                "name": "Visual Studio"
+              },
+              {
+                "id": 201269,
+                "name": "Microsoft Teams"
+              },
+              {
+                "id": 201307,
+                "name": "artificial-intelligence"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "535391",
+        "title": "Building Multi-Tenant ASP.NET Core Applications and ABP Framework",
+        "description": "What's SaaS development? What are the multi-tenancy pros and challenges? Multitenant deployment and database architectures. Multi-tenant development with the open-source ABP Framework.",
+        "startsAt": "2023-11-15T22:00:00",
+        "endsAt": "2023-11-15T22:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "47d3bc80-130c-4149-8f5b-b3fce5d86cb5",
+            "name": "Alper Ebicoglu"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              },
+              {
+                "id": 201256,
+                "name": "Open Source"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "528789",
+        "title": "Reactive programming with .NET MAUI",
+        "description": "The session topics will be about what is reactive programming and how to apply it in .NET MAUI.\r\n\r\nOutline of session\r\n- Asynchronous  Programming\r\n- Reactive Programming\r\n- MVVM & Data Binding\r\n- ReactiveUI\r\n- Live Coding of Reactive Programming on a MAUI Application\r\n",
+        "startsAt": "2023-11-15T22:30:00",
+        "endsAt": "2023-11-15T23:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "483fdc28-d517-4b45-8a2c-39db19d37c36",
+            "name": "Enis Necipoğlu"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201241,
+                "name": ".NET MAUI"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "532302",
+        "title": "From Zero to Million: How Amateur Developers and Infrastructure Engineers Built a Million-Dollar App",
+        "description": "Join us for an exciting presentation as we dive deep into the journey of an unlikely team of amateur developers and infrastructure engineers who crafted a million-dollar app using .NET and PowerShell. Starting with nothing more than a simple idea and their combined skills, this team harnessed the power of .NET to develop a robust and scalable application that not only caught the eye of industry veterans but also generated over $1 million in revenue for Microsoft. In this talk, we will walk through the challenges, breakthroughs, and technical details of the app development process. We will showcase how PowerShell was utilized to automate the creation and management of Azure resources, and how this contributed to the team's ability to rapidly iterate and scale the app. With valuable insights and key takeaways, we are hoping this session will inspire developers of all levels to explore the possibilities of .NET, PowerShell, and Azure, and demonstrate that with the right tools and a dedicated team, even amateur developers can achieve extraordinary success",
+        "startsAt": "2023-11-15T23:00:00",
+        "endsAt": "2023-11-15T23:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "e5ce17a8-4c72-45fb-bcfd-d64ab6071875",
+            "name": "Werner Rall"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201247,
+                "name": "Desktop"
+              },
+              {
+                "id": 201259,
+                "name": "Visual Studio"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "547963",
+        "title": "Visual Studio updates for F#",
+        "description": "In this presentation, Petr will discuss the recent enhancements to Visual Studio for F# developers. The talk will cover built-in features such as code fixes and autocomplete, as well as adjustable functionalities like type hints. These updates aim to refine and optimize the F# coding experience in Visual Studio.",
+        "startsAt": "2023-11-15T23:30:00",
+        "endsAt": "2023-11-16T00:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "b2d43a06-8632-49e7-a0d1-d58c45c30542",
+            "name": "Petr Semkin"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201243,
+                "name": "F#"
+              },
+              {
+                "id": 201259,
+                "name": "Visual Studio"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201302,
+                "name": "2"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      }
+    ],
+    "isDefault": false
+  },
+  {
+    "groupId": 201303,
+    "groupName": "3",
+    "sessions": [
+      {
+        "questionAnswers": [],
+        "id": "535444",
+        "title": "From IL Weaving to Source Generators, the Realm story",
+        "description": "Intermediate Language (IL) Weaving is a powerful technique that allows to greatly simplify the experience of developers using the .NET Realm SDK by hiding a fair amount of complexity from end-users.\r\nWorking with a weaver, though, is tedious, error prone and the resulting code is a black box. These are some of the reasons that convinced us to migrate to Source Generators, a feature introduced in .NET 5 that allows to produce code on the fly during compilation.\r\nThis talk will go through the reasons why IL Weaving was used in the first place, our long journey switching to Source Generators and why they do not yet satisfy all our needs.\r\n",
+        "startsAt": "2023-11-16T00:00:00",
+        "endsAt": "2023-11-16T00:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "65c62185-028c-4dfd-be42-8ff04dce95e3",
+            "name": "Ferdinando Papale"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201271,
+                "name": ".NET Developer Story"
+              },
+              {
+                "id": 201278,
+                "name": "Deeper .NET"
+              },
+              {
+                "id": 201274,
+                "name": "Modernization"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536965",
+        "title": "Let’s catch up with C#! Exciting new features in C# 9, 10, 11 and 12!",
+        "description": "With every iteration of C#, we get more and more features that are meant to make our lives as developer a lot easier.\r\n\r\nLet's explore what's new in C# 9, 10, 11 and 12!\r\n\r\nWe will look at how the language has changed and why these changes to the language will make us better C# developers, with less bugs in our code.\r\n\r\nWe will cover the following features:\r\n- Nullable reference types\r\n- Pattern Matching in C# 8 => C# 11\r\n- Record types\r\n- Top level programs/statements\r\n- Init only & new()\r\n\r\nWe'll also take a look at what is new in C# 12!",
+        "startsAt": "2023-11-16T00:30:00",
+        "endsAt": "2023-11-16T01:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "1f8704d7-04db-4f09-9c0e-d5abcbc7c9ff",
+            "name": "Filip Ekberg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "534088",
+        "title": "Two ways of migrating old ASP.NET web apps to .NET 7/8",
+        "description": "Legacy ASP.NET apps updated to ASP.NET Core can benefit from improved performance and access to the latest web development features and capabilities.\r\nIt is not easy to migrate a non-trivial web app - the migration must be done incrementally.\r\nIn this session, I'll talk about two ways of doing the migration:\r\n* The first way involves creating a new app aside and configuring YARP to forward traffic to already migrated pages to the new app.\r\n* The second way uses an open-source framework DotVVM which can be added directly to the .NET Framework project and allows switching to the .NET 7/8 when the migration is complete.\r\nI'll share a lot of practical examples and my personal experience with both methods of migration.",
+        "startsAt": "2023-11-16T01:00:00",
+        "endsAt": "2023-11-16T01:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "cf5b4b63-cc1b-48eb-bef3-7aeb21625e61",
+            "name": "Tomas Herceg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201274,
+                "name": "Modernization"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "531241",
+        "title": "Unleashing the Power of Cross-Platform Development with Avalonia UI",
+        "description": "Join Mike as he delves into the exciting world of cross-platform .NET development powered by Avalonia UI! This session will demonstrate how Avalonia UI enables you to create sleek, modern applications running seamlessly across Windows, macOS, Linux, iOS, Android and WebAssembly.\r\n\r\nAfter discussing Avalonia UI, Mike will showcase how to revitalise legacy WPF applications and bring them to life on macOS and Linux using Avalonia XPF!\r\n\r\nWhether you're an experienced .NET developer or just starting your journey, this session is your ticket to embracing the future of cross-platform development.",
+        "startsAt": "2023-11-16T01:30:00",
+        "endsAt": "2023-11-16T02:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "8206558e-98e6-4f17-ac50-3cbceecd6b4f",
+            "name": "Mike James"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "525926",
+        "title": "Design UI agnostic cross-platform applications with .NET",
+        "description": "One of the first questions I hear from my clients, when they are starting developing a new cross platform applications with .NET, is: What framework should I use? Xamarin.Forms which is stable, MAUI which is the new child but still missing some things. But wait there is also Uno Platform and AvaloniaUI.\r\nThe question is not wrong but maybe you could approach the problem in a different way? What if you could design your application to depend as little as possible on the UI framework thus making it easier to migrate from one UI framework to another without the need to rewrite everything.\r\nIn this session I will show some strategies that you can use when you are developing a cross-platform application with .NET that should make testing, maintenance and migration easier .",
+        "startsAt": "2023-11-16T02:00:00",
+        "endsAt": "2023-11-16T02:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "403a5ba3-d18d-4d10-9f42-0387d545f2fb",
+            "name": "Dan Ciprian Ardelean"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "535408",
+        "title": "Unlocking the power of the Fluent UI Blazor components",
+        "description": "Dive into the world of Fluent UI and discover how to leverage its seamless integration with Blazor for building web and mobile applications. In this presentation, we'll take you on a journey to explore the fundamentals and building blocks of the library and demonstrate how to quickly incorporate it into your Blazor projects. Learn the basics of setting up the environment, use the interactive components, and change the styling of your application with Fluent UI design tokens. Whether you're a seasoned Blazor developer or just getting started, join us to learn how to create visually appealing and user-friendly applications with the Fluent UI Blazor library.",
+        "startsAt": "2023-11-16T02:30:00",
+        "endsAt": "2023-11-16T03:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "c1956c30-37ad-4cfb-b3c5-dbe09f54622b",
+            "name": "Vincent Baaij"
+          },
+          {
+            "id": "58b7e053-0d87-4bbc-a0c5-fb03e0b34166",
+            "name": "Denis Voituron"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201246,
+                "name": "Mobile"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "537535",
+        "title": "Let none survive! - How to test our unit tests with mutation testing",
+        "description": "Executing the very short development cycle of test-driven development requires discipline and practice.\r\nHowever, the .NET ecosystem offers us a wide variety of tools to support us in authoring a high-quality suite of unit tests, defending our production code against defects.\r\nIn this session, Stefan is showing how mutation testing can further improve the effectiveness of C# test suites by testing our unit tests with mutation testing, and how to continuously integrate it with Azure Pipelines/GitHub Actions.\r\nLet's kill some mutants!",
+        "startsAt": "2023-11-16T03:00:00",
+        "endsAt": "2023-11-16T03:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "1a8eb8cc-fa0f-401e-b10b-843de142ad69",
+            "name": "Stefan Pölz"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201272,
+                "name": "Testing"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "528432",
+        "title": "Migrating  a React Application to Blazor",
+        "description": "In this session, I would be discussing how I rewrote my open-source React Manifest.JSON file and Image generator (for Progressive Web Applications) to Blazor using DotNet 8. ",
+        "startsAt": "2023-11-16T03:30:00",
+        "endsAt": "2023-11-16T04:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "78b11117-cdce-40ec-be9c-d969bcb7940b",
+            "name": "Samson Amaugo"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "527553",
+        "title": "How to Achieve Optimistic Updates with Blazor and EF Core",
+        "description": "Optimistic updates are a technique for improving the user experience of web applications by updating the UI before the server confirms the changes. This can make the app feel more responsive and reduce the perceived latency. In this session, you will learn how to implement optimistic updates with Blazor and Entity Framework Core (EF Core), a popular ORM framework for .NET. You will also learn how to leverage Blazor’s state management and data binding features to update the UI seamlessly. By the end of this session, you will be able to create Blazor apps that use optimistic updates with EF Core and provide a great user experience.",
+        "startsAt": "2023-11-16T04:00:00",
+        "endsAt": "2023-11-16T04:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f58049f0-3bc0-462c-afcf-5d63abf27155",
+            "name": "Emanuele Bartolesi"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "526349",
+        "title": "EF Core database model first - take it to the next level with Power Tools CLI",
+        "description": "Introducing the \"EF Core Power Tools CLI,\" an open-source .NET 8 global tool designed to streamline your workflow. This powerful tool allows you to effortlessly generate a DbContext and entity classes from your existing database, offering a plethora of customization options. \r\n\r\nIn this demo-packed session you will see how easy it is to get started with EF Core with and existing database in a matter of seconds, and we will dive into some of the many options you can tweak.",
+        "startsAt": "2023-11-16T04:30:00",
+        "endsAt": "2023-11-16T05:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "41e47bce-834b-4bba-8ada-39633a3e696f",
+            "name": "Erik Ejlskov Jensen"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201249,
+                "name": "Data"
+              },
+              {
+                "id": 201252,
+                "name": "Entity Framework"
+              },
+              {
+                "id": 201256,
+                "name": "Open Source"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "526368",
+        "title": "What's new in F# 8",
+        "description": "The session will bring an overview of new F# 8 language features, diagnostics and improvements.",
+        "startsAt": "2023-11-16T05:00:00",
+        "endsAt": "2023-11-16T05:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "21d7c708-a04d-42be-bf3a-5b56b1dcaa4e",
+            "name": "Tomáš Grošup"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201243,
+                "name": "F#"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536837",
+        "title": "Modernizing Rx.NET",
+        "description": "The Reactive Extensions for .NET are one of the most well established and widely used open source .NET projects. Learn how this project is evolving to take advantage of changes in .NET.",
+        "startsAt": "2023-11-16T05:30:00",
+        "endsAt": "2023-11-16T06:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "9f59e249-ee35-4542-ae4e-7cbf07c00273",
+            "name": "Ian Griffiths"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201278,
+                "name": "Deeper .NET"
+              },
+              {
+                "id": 201274,
+                "name": "Modernization"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "531988",
+        "title": "Building next-gen applications with event-driven architectures",
+        "description": "In a world where events shape our interactions, embracing an event-driven mindset empowers innovation and responsiveness at every turn. By leveraging the power of events, businesses can stay ahead of the competition, deliver superior customer value, and achieve long-term success. \r\n\r\nIn this talk, we will show how to use event-driven architecture to decouple and decentralize application components, promoting modular and independent development, and flexibility in system design. Learn how you can start thinking \"event driven\" as you approach designing your application. We will do a live demo using .NET8 and Azure PaaS services to highlight the immense potential of EDA in its ability to respond in real-time to events occurring in other systems and applications. By understanding the key components and benefits of EDA, you will be equipped to evaluate whether it is the right fit for your organization and empowered to initiate the implementation of event-driven architecture in your systems.",
+        "startsAt": "2023-11-16T06:00:00",
+        "endsAt": "2023-11-16T06:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "9f79b251-4841-47f4-92a6-685919e69adb",
+            "name": "Teena Idnani"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201254,
+                "name": "Microservices"
+              },
+              {
+                "id": 201289,
+                "name": "group-cloud"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "525785",
+        "title": "Blazor-testing from A to Z",
+        "description": "This session will discuss and showcase the different Blazor testing strategies, libraries, and tools available to us, so whether you are building a website, web app, or a reusable Blazor component library, you can pick the ones that yield the most bang for the buck.\r\n\r\nSpecifically, this session covers end-2-end testing, component testing, unit testing, Playwright, bUnit, snapshot testing, semantic markup comparison, emulating user interactions, and how and when to use test doubles (e.g., mocks).\r\n\r\nWe will cover these topics with the goal of creating tests that protect against regressions, are resistant to refactoring, are maintainable, and give fast feedback.",
+        "startsAt": "2023-11-16T06:30:00",
+        "endsAt": "2023-11-16T07:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "497484cb-045c-41d1-a8f5-3b453177017b",
+            "name": "Egil Hansen"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201272,
+                "name": "Testing"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "532068",
+        "title": "Lessons from a data science startup using F# and dotnet in a developing country",
+        "description": "What happens when you have to rebuild the whole tech area of a data science company and you have the authority to drop python and JS?  Dotnet and F#, that's what (at least for me, it was).\r\n\r\nThis talk is my tale of being the CTO of a data science consultancy and:\r\n\r\n• Deciding to drop the existing investment on typescript and python and going on F# and dotnet;\r\n• Having to grow a team from ~4 to ~12 in the span of a year;\r\n• While facing the usual chaotic environment of a startup.\r\n\r\n\r\nWhat I promise with this talk is:\r\n\r\n1. How it was to grow a high performing functional programming team in a developing country;\r\n2. What was the impact that dotnet and F# brought to the table.",
+        "startsAt": "2023-11-16T07:00:00",
+        "endsAt": "2023-11-16T07:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "d388c0ee-0ae6-4403-8ff2-68c429ecceb1",
+            "name": "Eduardo Bellani"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201250,
+                "name": "Data Science"
+              },
+              {
+                "id": 201243,
+                "name": "F#"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "526772",
+        "title": "Reverse proxying is easy with YARP",
+        "description": "How is YARP different from most other reverse proxies, and enables you to do easily customize to support your specific scenarios as its implemented as ASP.NET Core middleware.",
+        "startsAt": "2023-11-16T07:00:00",
+        "endsAt": "2023-11-16T07:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "aad16ff5-e2a2-4e40-9fc8-706cd67db8e4",
+            "name": "Sam Spencer"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "525580",
+        "title": "Building beautiful Blazor apps with Tailwind CSS",
+        "description": "Tailwind CSS has been growing in popularity for some time. It’s fast becoming one of the top frameworks to use when styling applications. It offers a different approach to the traditional frameworks like Bootstrap—utility based styling. Rather than using prebuilt components—which result in your application looking like a lot of others on the web—you can tailor your design by applying small focused CSS classes resulting in a unique style for your app.\r\n\r\nIn this code focused talk, you will learn how to bring the power of Tailwind CSS to your Blazor applications. We’ll start off with a brief introduction to Tailwind. Then we’ll get into some code and see how we can integrate Tailwind with Blazor. For the rest of the time, we’ll explore the various features of Tailwind and see just how beautiful we can make our Blazor app!",
+        "startsAt": "2023-11-16T07:30:00",
+        "endsAt": "2023-11-16T08:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "ac5299cc-9861-449b-add6-c26aef631c04",
+            "name": "Chris Sainty"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536177",
+        "title": "Mobile Application Development with C# only: Unifying Markup and Business Logic",
+        "description": "This session, \"Streamlining Mobile Application Development with C#,\" shows how to leverage the power of C# to handle both markup and business logic, simplifying the development process and enhancing productivity. \r\n\r\nTraditionally, mobile applications have required developers to master multiple programming and markup languages to develop both the user interface (UI) and the underlying business logic.  By embracing a unified approach, developers can seamlessly transition between UI design and functional implementation, leading to reduced development time and improved code maintainability.\r\n\r\nJoin us to explore the future of mobile application development, where the power of C# transforms the way we create, iterate, and innovate. ",
+        "startsAt": "2023-11-16T07:30:00",
+        "endsAt": "2023-11-16T08:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "5cec8286-18d8-4ddc-8ed5-49a0d3949012",
+            "name": "Pedro Jesus"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201246,
+                "name": "Mobile"
+              },
+              {
+                "id": 201261,
+                "name": "Windows Dev"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "529747",
+        "title": "Build an Azure OpenAI powered .NET 8 Chat Bot on your data from scratch",
+        "description": "In this session, you will learn how to build an Azure OpenAI Chat Bot that allows you to work with your own data. You will be able to build the API, UI and ChatBot from scratch. You will be able to ask questions in natural language. ",
+        "startsAt": "2023-11-16T08:00:00",
+        "endsAt": "2023-11-16T08:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "c11be264-0fd1-4041-aca2-836b130d8727",
+            "name": "Chander Dhall"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201255,
+                "name": "MVC"
+              },
+              {
+                "id": 201280,
+                "name": "group-web"
+              },
+              {
+                "id": 201285,
+                "name": "group-ai"
+              },
+              {
+                "id": 201308,
+                "name": "chatgpt"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "537531",
+        "title": "Experimental C# Interceptors: AOT & Performance for free",
+        "description": "C# 12.0 - shipped with .NET 8.0 - brings us a new experimental language feature: Interceptors. An interceptor is basically the inverse of a goto statement that enables the Roslyn compiler to replace reflection-based call sites with specialized implementations. Combined with (incremental) source generators, codebases become more Native AOT-friendly and can unlock better performance. Let's inspect this new concept in detail and see it in action.",
+        "startsAt": "2023-11-16T08:00:00",
+        "endsAt": "2023-11-16T08:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "1a8eb8cc-fa0f-401e-b10b-843de142ad69",
+            "name": "Stefan Pölz"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201278,
+                "name": "Deeper .NET"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "537540",
+        "title": "It's C# All The Way Down! Using .NET for home automation with IoT devices",
+        "description": "In this presentation, I demonstrate using .NET nanoFramework on a microcontroller along with .NET runtime on a Raspberry Pi to control home automation. The microcontroller acts a beacon relaying button presses from a repurposed Gravis PC GamePad to a microservice running on the Pi, which handles calling the various APIs needed to control smart home devices such as connected air conditioners and lighting. Echoing the expression “Turtles all the Way Down”, we see how C# can be leveraged across layers in an IoT solution.",
+        "startsAt": "2023-11-16T08:30:00",
+        "endsAt": "2023-11-16T09:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "af6bf4c4-14e2-4bce-abd1-833dbe567f41",
+            "name": "Sammo Gabay"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201244,
+                "name": "IoT"
+              },
+              {
+                "id": 201268,
+                "name": "Web API"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "535084",
+        "title": "To the cloud with minimal changes: A pattern to make your app reliable",
+        "description": "Do you want to move your web app to the cloud without rewriting it from scratch? Do you want to enjoy reliability and resilience benefits without sacrificing your existing codebase? This session will show you how to use essential developer patterns to re-platform your app to Azure with minimal changes. You will learn how to make your app more reliable and add resilience to protect against unexpected downtime in the cloud. And how to provision and deploy your app using the Azure Developer CLI, which lets you manage your infrastructure as code and automate your workflows with GitHub actions. These patterns are the first step in your cloud journey. Don't miss this opportunity to learn how to take your app to the cloud with ease and confidence!",
+        "startsAt": "2023-11-16T08:30:00",
+        "endsAt": "2023-11-16T09:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "427c96cb-6d03-41e1-99ec-58171b0738af",
+            "name": "Matt Soucoup"
+          },
+          {
+            "id": "ab220ff5-084f-4204-9d4b-1091a67dafa1",
+            "name": "Nish Anil"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201263,
+                "name": "Practices"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              },
+              {
+                "id": 201268,
+                "name": "Web API"
+              },
+              {
+                "id": 201274,
+                "name": "Modernization"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "534347",
+        "title": "Community Toolkit Roundup",
+        "description": "Join a lively discussion with maintainers of the Community Toolkits, the .NET Community Toolkit, the MAUI Community Toolkit, and the Windows Community Toolkit. Learn about these open-source projects which aim to provide useful and high-quality components, controls, and utilities for .NET developers.\r\n\r\nDiscover how you can get involved, contribute, and benefit from these amazing toolkits that cover various .NET platforms and technologies. Whether you are developing desktop, mobile, web, or cross-platform applications, there is a Toolkit for you!",
+        "startsAt": "2023-11-16T09:00:00",
+        "endsAt": "2023-11-16T09:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "fbb81c58-54e7-479c-b1b8-77fef79a988b",
+            "name": "Michael Hawker"
+          },
+          {
+            "id": "b5f674c8-199a-444d-bfaf-e8f8cd8a6248",
+            "name": "Gerald Versluis"
+          },
+          {
+            "id": "d808257e-59d5-4245-b2a9-38bba53fec49",
+            "name": "Sergio Pedri"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201241,
+                "name": ".NET MAUI"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201247,
+                "name": "Desktop"
+              },
+              {
+                "id": 201253,
+                "name": "Linux Dev"
+              },
+              {
+                "id": 201246,
+                "name": "Mobile"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              },
+              {
+                "id": 201261,
+                "name": "Windows Dev"
+              },
+              {
+                "id": 201256,
+                "name": "Open Source"
+              },
+              {
+                "id": 201271,
+                "name": ".NET Developer Story"
+              },
+              {
+                "id": 201277,
+                "name": "GitHub"
+              },
+              {
+                "id": 201281,
+                "name": "group-windows"
+              },
+              {
+                "id": 201300,
+                "name": "group-oss"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "532549",
+        "title": "Improve your ASP.NET core web app performance using Azure Cache for Redis",
+        "description": "Learn how to use Redis Cache to improve performance and resiliency with your ASP.NET core web application. We will look into scenarios such as session store, web response caching, and advanced analytics and search Redis Cache scenarios. ",
+        "startsAt": "2023-11-16T09:00:00",
+        "endsAt": "2023-11-16T09:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "56c98983-54d4-45e2-8135-15384c5a8fe0",
+            "name": "Catherine Wang"
+          },
+          {
+            "id": "9eb4ee18-8a18-43ad-800c-047c6bfea4a4",
+            "name": "Marc Gravell"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201256,
+                "name": "Open Source"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536456",
+        "title": "Blazor Puzzles and Answers",
+        "description": "The Blazor Puzzle podcast team of Carl Franklin and Jeff Fritz have a collection of puzzles and brain-teasers for you in this code-focused session about the latest features of the Blazor framework.  We'll fix bugs, build cool features, and even write a unit test or two",
+        "startsAt": "2023-11-16T09:30:00",
+        "endsAt": "2023-11-16T10:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "0b437ec7-f68b-4aeb-8a93-2d8aaf3766e5",
+            "name": "Jeffrey T. Fritz"
+          },
+          {
+            "id": "6d1065d2-3494-48a6-a6bb-7efde3d8de40",
+            "name": "Carl Franklin"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "545127",
+        "title": "Make a template for your template; profit!",
+        "description": "Ever wish you could create your own File | New template for your company or side projects? Complete with your favorite tools and settings ready to go? In this talk Rob Conery will show you how to do just that, utilizing one of the more “under the radar” features of .NET: the project template.",
+        "startsAt": "2023-11-16T09:30:00",
+        "endsAt": "2023-11-16T10:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "ecb37172-c6af-49d1-bbb7-3e29ee4b300f",
+            "name": "Rob Conery"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201263,
+                "name": "Practices"
+              },
+              {
+                "id": 201259,
+                "name": "Visual Studio"
+              },
+              {
+                "id": 201260,
+                "name": "Visual Studio Code"
+              },
+              {
+                "id": 201270,
+                "name": ".NET Runtime"
+              },
+              {
+                "id": 201278,
+                "name": "Deeper .NET"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "533920",
+        "title": "Integrating Blazor with existing .NET web apps",
+        "description": "ASP.NET's RazorComponent model is intuitive and brings productivity to web development. In this session we'll learn how RazorComponents aren't just for Blazor apps and how we can integrate the best part of Blazor with existing ASP.NET applications using: Razor Pages, MVC, and even other front-end technologies.",
+        "startsAt": "2023-11-16T10:00:00",
+        "endsAt": "2023-11-16T10:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "3fd9cade-10ef-43df-b124-944015042549",
+            "name": "Ed Charbeneau"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201238,
+                "name": "Blazor"
+              },
+              {
+                "id": 201255,
+                "name": "MVC"
+              },
+              {
+                "id": 201268,
+                "name": "Web API"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "543867",
+        "title": "Learn how to improve .NET application performance, leveraging Azure Code Optimizations",
+        "description": "Join us to learn more about how Azure Diagnostics team can help you improve your .NET application performance!  Azure Code-Optimizations is a AI-based service can identify performance issues and offer recommendations specifically tailored for .NET applications and cloud services. \r\n",
+        "startsAt": "2023-11-16T10:00:00",
+        "endsAt": "2023-11-16T10:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "689a4c66-a240-47bf-9afe-69fe0f3edf48",
+            "name": "Manju Ramanathpura"
+          },
+          {
+            "id": "123cd184-8c6b-4ff9-b6b6-7bb7b961f936",
+            "name": "Jan Kalis"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536914",
+        "title": "How to build a story generator application for children with .NET MAUI and Microsoft Azure",
+        "description": "In this demo, I recount the process for using .NET MAUI to create a cross-platform application, along with Azure OpenAI services for creating stories and images for children, as well as Azure Text to Speech for storytelling.",
+        "startsAt": "2023-11-16T10:30:00",
+        "endsAt": "2023-11-16T11:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "0fd9e1b4-7ee1-46e7-b293-4d42f0fded94",
+            "name": "Héctor Uriel Pérez Rojas"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201241,
+                "name": ".NET MAUI"
+              },
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201246,
+                "name": "Mobile"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "534186",
+        "title": "ASP.NET Basics for Experts",
+        "description": "People love to stay in their comfort zone and do what they've always done. But what if you could take your web applications to the next level just by getting the fundamentals right?\r\n\r\nIn this .NET 8 demo-rich session, I will show you how to make your applications more testable, maintainable and resilient. \r\nWhether you are working with a monolith or a vast distributed application, the areas we'll cover will be applicable. \r\nJoin me and learn about the following topics and more!\r\n\r\n- Minimal APIs, top-level statements and good design practise\r\n- Dependency injection and inversion of control\r\n- HTTP clients and policies\r\n- Resiliency and circuit breakers with Polly\r\n- Discovery clients with Steeltoe OSS\r\n",
+        "startsAt": "2023-11-16T11:00:00",
+        "endsAt": "2023-11-16T11:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "ac105033-2b20-4b45-8d47-5647d8accf84",
+            "name": "Layla Porter"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "526892",
+        "title": "From databases to API: an efficient solution both on-premises and in Azure",
+        "description": "Data API builder turns Azure Databases into REST a GraphQL API so that you can have the backend for your next modern application done in just a few minutes instead of days. With full support to authentication and authorization, integrated with Static Web Apps and easily scalable up and out – using API Management – Data API builder is something you really want to look at. Available both on Azure and on-premises, and Open Source, this is very likely to become your favorite tool. Come and learn everything about it!",
+        "startsAt": "2023-11-16T11:00:00",
+        "endsAt": "2023-11-16T11:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "164d4b63-0948-462a-9809-7a6adf0caf4e",
+            "name": "Davide Mauri"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201254,
+                "name": "Microservices"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              },
+              {
+                "id": 201273,
+                "name": "Cloud"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "540254",
+        "title": "Integrating Third-party Services with .NET 8's Identity Framework",
+        "description": "We've all been there - juggling multiple tools, trying to get them to play nicely together. And with .NET 8's robust Identity Framework, the idea of bringing in third-party services can feel a bit daunting. But here’s the good news: It doesn’t have to be!\r\n\r\nIn this talk, we'll pull back the curtain on the seamless integration of third-party services with .NET 8. We'll start with the basics, understanding what the Identity Framework brings to our table. From there, we'll dive into real-world scenarios, like plugging in popular social logins and ensuring that Aunt Mabel can safely access her account without a hitch.\r\n\r\nAnd yes, we'll tackle the bumps along the way - challenges, security snags, and those \"Oops, didn’t see that coming\" moments. Together, we'll navigate the waters, learn from each other, and demystify the process of integrating third-party services, making it feel less like a chore and more like a new adventure.\r\n\r\nSo, whether you're a .NET veteran or someone just dipping their toes in, come along! Let's make our projects a little less \"How do I even?\" and a lot more \"Look what I just did!\"",
+        "startsAt": "2023-11-16T11:30:00",
+        "endsAt": "2023-11-16T12:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "a92fb3e8-170c-4f84-9736-83f6a5f87dc4",
+            "name": "Kiah Imani"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "526770",
+        "title": "CoreWCF - Its not just for modernizing old WCF apps",
+        "description": "Covers what's new in WCF to make it easier to incorporate into modern applications and port old applications to modern .NET. Using JWT authentication, and Message queues for Azure or other cloud platforms.",
+        "startsAt": "2023-11-16T11:30:00",
+        "endsAt": "2023-11-16T12:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "aad16ff5-e2a2-4e40-9fc8-706cd67db8e4",
+            "name": "Sam Spencer"
+          },
+          {
+            "id": "7a39ff06-23f1-4dc6-9309-356d5fa364df",
+            "name": "Matt Connew"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "534374",
+        "title": ".NET App modernization and cloud migration: Cross Platform Enterprise focus",
+        "description": "A journey in modernizing and migrating .NET Applications to Private and Public Cloud within an enterprise focused on cross-platform cloud PaaS solutions",
+        "startsAt": "2023-11-16T12:00:00",
+        "endsAt": "2023-11-16T12:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "3cec2253-7fed-4f07-bf51-2144915942d2",
+            "name": "Ben Prejean"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201253,
+                "name": "Linux Dev"
+              },
+              {
+                "id": 201255,
+                "name": "MVC"
+              },
+              {
+                "id": 201259,
+                "name": "Visual Studio"
+              },
+              {
+                "id": 201260,
+                "name": "Visual Studio Code"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              },
+              {
+                "id": 201265,
+                "name": "Containers"
+              },
+              {
+                "id": 201268,
+                "name": "Web API"
+              },
+              {
+                "id": 201270,
+                "name": ".NET Runtime"
+              },
+              {
+                "id": 201271,
+                "name": ".NET Developer Story"
+              },
+              {
+                "id": 201273,
+                "name": "Cloud"
+              },
+              {
+                "id": 201274,
+                "name": "Modernization"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "531140",
+        "title": "Dynamic PGO",
+        "description": "In .NET 8, Dynamic PGO is enabled by default, and we expect it will provide performance boosts for nearly all .NET applications. We'll explore how PGO works and show off some of the inner workings of the JIT and runtime that make this possible.",
+        "startsAt": "2023-11-16T12:00:00",
+        "endsAt": "2023-11-16T12:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f4e7e0da-4fcb-46e7-9d70-fe8336946c9d",
+            "name": "Andy Ayers"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "539788",
+        "title": "Clean Architecture with ASP.NET Core 8",
+        "description": "Clean Architecture (aka Onion, Hexagonal, Ports-and-Adapters) organizes your code in a way that limits its dependencies on infrastructure concerns. This results in much more testable, maintainable code and is ideal for Domain-Driven Design as well as microservices. Learn how to apply it to your ASP.NET Core apps!",
+        "startsAt": "2023-11-16T12:30:00",
+        "endsAt": "2023-11-16T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "a5d50f4e-f021-4983-97a9-73f9415b3d5b",
+            "name": "Steve Smith"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              },
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201254,
+                "name": "Microservices"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "530751",
+        "title": "Build .NET MAUI Apps with DevOps",
+        "description": "In this session, we'll walk through DevOps pipelines to show how to build .NET MAUI apps. We'll also share some tips and tricks, tips on how to optimize your builds. We'll look at sample pipelines in GitHub Actions and Azure DevOps, discuss signing the apps for distribution and running Unit Tests as part of the pipeline. ",
+        "startsAt": "2023-11-16T12:30:00",
+        "endsAt": "2023-11-16T13:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "28fcff43-a3db-4eeb-bc74-a9cb943cfb2c",
+            "name": "Sweekriti Satpathy"
+          },
+          {
+            "id": "9fd10a46-6e2a-4eae-9b6d-9cf8ff0ecf15",
+            "name": "David Ortinau"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "532257",
+        "title": "Introducing project Kiota a client generator for OpenAPI",
+        "description": "Integrating your application with APIs by manually implementing authentication, authorization, serialization, error handling and building requests represents a lot of additional work. Fortunately OpenAPI and Kiota are here to save the day by generating clients for you in seconds! Join us during this demo filled session to discover how you can generate your own tailored API client. Using your new Kiota generated tailored client, you can focus on what matter: building value for your end users.",
+        "startsAt": "2023-11-16T13:00:00",
+        "endsAt": "2023-11-16T13:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "9199b9a8-8528-4ec7-8dfa-9b551f50b8fb",
+            "name": "Vincent Biret"
+          },
+          {
+            "id": "b41b4011-24e9-4d30-90ef-0f6c20640dbb",
+            "name": "Darrel Miller"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201260,
+                "name": "Visual Studio Code"
+              },
+              {
+                "id": 201256,
+                "name": "Open Source"
+              },
+              {
+                "id": 201268,
+                "name": "Web API"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "536387",
+        "title": "Building planet scale .NET apps with Azure Cosmos DB",
+        "description": "Building planet scale applications requires a database that can remain highly performant while seamlessly scaling as your needs grow. Azure Cosmos DB is a fully managed distributed database that can be transparently replicated across regions, making it great for applications of any scale! \r\n\r\nLearn how to build applications using the Azure Cosmos DB .NET SDK. We will cover some best practices as well as debugging tips using OpenTelemetry and Application Insights.",
+        "startsAt": "2023-11-16T13:00:00",
+        "endsAt": "2023-11-16T13:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "cbec7678-8322-40fd-b28f-4b8ff050b727",
+            "name": "Justine Cocchi"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201249,
+                "name": "Data"
+              },
+              {
+                "id": 201273,
+                "name": "Cloud"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "537454",
+        "title": "Meadow.Cloud and Azure, putting the “I” in IoT",
+        "description": "Today, getting an embedded device into production means successfully connecting to the cloud and sending data to inform real-time decisions.\r\n\r\nIn this talk, we will show how developers can use a Meadow capable device to easily connect to Meadow.Cloud and integrate with Azure to send critical data and metrics for real-time analytics and AI Anomaly Detector. \r\n",
+        "startsAt": "2023-11-16T13:30:00",
+        "endsAt": "2023-11-16T14:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "6ff9d32e-693f-4684-8415-32ee44f18f15",
+            "name": "Brian Kim"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201244,
+                "name": "IoT"
+              },
+              {
+                "id": 201273,
+                "name": "Cloud"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "531485",
+        "title": "COM Source Generation: An evolution of COM interop in .Net",
+        "description": "In .Net 8, the interop team created a source generator to enable you to easily transition from the runtime's built-in COM interop for IUnknown interfaces to cross platform C# code that is easier to debug, audit, and customize, all without losing performance. In this talk, we'll discuss what this source generator does, what the benefits are, and how to use it.",
+        "startsAt": "2023-11-16T13:30:00",
+        "endsAt": "2023-11-16T14:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "2a49e597-766d-416a-a7da-ebe2aaff916d",
+            "name": "Jackson Schuster"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "537546",
+        "title": "Use C# with Godot to make Games!",
+        "description": "Have you been wanting to make a game using C#? Godot is an easy-to-use open source game engine which makes it easy to get started!\r\n\r\nIn this session we'll show you how to start a new project and how to easily connect game objects to C# to build your game. \r\n\r\nThen we'll add a NuGet reference to the MVVM Toolkit for their amazing Messenger class to easily decouple events between game objects instead of using Godot's signals/events!",
+        "startsAt": "2023-11-16T14:00:00",
+        "endsAt": "2023-11-16T14:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "fbb81c58-54e7-479c-b1b8-77fef79a988b",
+            "name": "Michael Hawker"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201245,
+                "name": "Game Dev"
+              },
+              {
+                "id": 201256,
+                "name": "Open Source"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "530870",
+        "title": ".NET is the best backend for your JavaScript frontend",
+        "description": "We will be talking about the removal of the old SPA templates from .NET 8 and the recommended way of working with .NET using JavaScript as front end - the new multiple project combined templates shipped with Visual Studio and the JavaScript SDK. We will be walking through the full development lifecycle including project creation, build, unit testing, run and publish for a modern JavaScript framework.",
+        "startsAt": "2023-11-16T14:00:00",
+        "endsAt": "2023-11-16T14:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "77b737b8-1b28-4963-83aa-3650d0d6f173",
+            "name": "Jiayan Chen"
+          },
+          {
+            "id": "9281abeb-8288-458e-b69e-9556a3c1cd76",
+            "name": "Daniel Roth"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "543763",
+        "title": "Azure API Center and ASP.NET Web API Integration: A Developer's Guide",
+        "description": "In a rapidly evolving digital landscape, the use of APIs is becoming increasingly popular. One key tool that has emerged as a game-changer is the ability to curate and organize APIs in an organizational repository. This is where Azure API Center comes in, a structured and organized API hub that provides comprehensive information about all organizational APIs. API Center is the centralized catalog for all APIs that maintains API metadata including versions and associated deployments. \r\n\r\nFollow a developer's journey and learn about how you can integrate your ASP.NET Core web API with Azure API Center. Learn about the benefits and use cases what you can do with Azure API Center.",
+        "startsAt": "2023-11-16T14:30:00",
+        "endsAt": "2023-11-16T15:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f023cf9e-3091-4893-88a0-3f55142a7c0c",
+            "name": "Julia Kasper"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201237,
+                "name": "Azure"
+              },
+              {
+                "id": 201268,
+                "name": "Web API"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "532907",
+        "title": "Unleashing Cross-Platform Magic in .NET 8: Creating .NET MAUI Apps on Linux with Visual Studio Code",
+        "description": "Developing .NET MAUI mobile apps on Linux is now a reality! Thanks to the recently announced .NET MAUI extension you can now develop apps on different operating systems with Visual Studio Code. Debugging on devices, emulators, and simulators as well as other features from Visual Studio is possible thanks to the C# Dev Kit, so you can enhance your productivity with C# in VS Code.\r\n\r\nIn this session, we'll demonstrate and explain the essentials for starting your journey into developing .NET MAUI mobile apps with the VS Code extension on Linux operating system. From requirements, configuration, capabilities, limitations, demos, and features, this step-by-step guide will help you understand how .NET 8 offers a truly cross-platform experience.\r\n",
+        "startsAt": "2023-11-16T14:30:00",
+        "endsAt": "2023-11-16T15:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "70944c5f-22b3-4a64-8dbf-6bc40fa5e959",
+            "name": "Bruno Capuano"
+          },
+          {
+            "id": "a782df6e-ce00-46db-9ffa-8cb3f2e9d0ca",
+            "name": "Luis Beltran"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201241,
+                "name": ".NET MAUI"
+              },
+              {
+                "id": 201253,
+                "name": "Linux Dev"
+              },
+              {
+                "id": 201260,
+                "name": "Visual Studio Code"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "532535",
+        "title": "CQRS with Event Sourcing using the “Critter Stack”",
+        "description": "Do you have a system where you think would be a good fit for a CQRS architecture that also uses Event Sourcing for at least part of its persistence strategy? Are you intimidated by the potential complexity of that kind of approach? \r\n\r\nFear not, using a combination of the Postgresql-backed Marten (https://martendb.io) library for event sourcing and its newer friend Wolverine (https://wolverine.netlify.app) for command handling and asynchronous messaging, I'll show you how you can quickly get started with both CQRS and Event Sourcing. Once we get past the quick start, I'll show you how the Critter Stack's unique approach to the \"Decider\" pattern will help you create robust command handlers with very little code ceremony while still enjoying easy testability.\r\n\r\nMoving beyond basic command handling, I'll show you how to reliably subscribe to and publish the events or other messages created by your command handlers through Wolverine's durable outbox and direct subscriptions to Marten's event storage.",
+        "startsAt": "2023-11-16T15:00:00",
+        "endsAt": "2023-11-16T15:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "cf80d55a-62bf-4be2-a986-27d217129faf",
+            "name": "Jeremy Miller"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201262,
+                "name": "Architecture"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "543280",
+        "title": "Monitoring of Containerized .NET Applications in Azure",
+        "description": "At-scale monitoring of your .NET application infrastructure in real time is challenging given the number of steps and pieces typically involved to construct an end-to-end solution. We would like to discuss how Azure helps simplify this process for containerized .NET applications, especially those running on AKS. With the availability of a full monitoring software stack as managed services and automatic data enrichment, Azure makes monitoring more integrated and accessible as part of your application development and deployment cycles.",
+        "startsAt": "2023-11-16T15:00:00",
+        "endsAt": "2023-11-16T15:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "467ac0ec-8d37-4871-aaa4-e4421bd938bf",
+            "name": "Ye Gu"
+          },
+          {
+            "id": "fee7783b-877a-42c0-8899-7e3f600dffb4",
+            "name": "Scott Kinghorn"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "535303",
+        "title": "From Zero to Hero: Quickly Migrate Web Apps with Azure App Service",
+        "description": "Learn directly from the Azure migration product experts how to migrate your applications to Azure App Service by performing discovery, assessment and migration using the latest advances in Azure Migrate tooling and PowerShell scripts. See how customers have built intelligent apps in the cloud after migrating and modernizing these on-premises apps with no code changes.",
+        "startsAt": "2023-11-16T15:30:00",
+        "endsAt": "2023-11-16T16:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "4e66c344-f1bf-442b-924e-db14aacc9047",
+            "name": "Gaurav Seth"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201239,
+                "name": "ASP.NET"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              },
+              {
+                "id": 201261,
+                "name": "Windows Dev"
+              },
+              {
+                "id": 201273,
+                "name": "Cloud"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "534997",
+        "title": "Figma meets C# DevKit",
+        "description": "Developers and designers working together can often agree that the “handoff” is a dreaded pain point when collaborating in order to produce applications true to the way app was designed.   \r\n\r\nFigma is a free, browser-based design tool that took design world by fire. Visual Studio Code is a preferred IDE for many developers.  \r\n\r\nThe C# Dev Kit is a new Visual Studio Code extension that brings an improved editor-first C# development experience to Linux, macOS, and Windows. \r\n\r\nWhat if I told you there is a way to quickly export the exact design from Figma to DevKit, all while retaining 100% of C# code you care about.  \r\n\r\nCome see this magic happen right before your eyes.  ",
+        "startsAt": "2023-11-16T15:30:00",
+        "endsAt": "2023-11-16T16:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "e195f3c7-4eba-4c7f-9cdd-fc0bc151d47f",
+            "name": "Nick Randolph"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201247,
+                "name": "Desktop"
+              },
+              {
+                "id": 201246,
+                "name": "Mobile"
+              },
+              {
+                "id": 201260,
+                "name": "Visual Studio Code"
+              },
+              {
+                "id": 201251,
+                "name": "Web"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "550947",
+        "title": "What's New in NuGet for .NET 8",
+        "description": "This session will provide a description and walkthrough of all of the new features available in NuGet, the .NET package manager tool, for .NET 8!",
+        "startsAt": "2023-11-16T16:00:00",
+        "endsAt": "2023-11-16T16:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "dc9fe9b6-c289-417e-ad50-81f2f79f9da8",
+            "name": "Allie Barry"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "535314",
+        "title": ".NET Configuration In Depth",
+        "description": "Working as a consultant, something I often saw was teams moving from .NET Framework to .NET Core and .NET 5/6. As they adopted these new versions, they kept similar patterns and libraries. The teams weren't taking full advantage of the improvements in .NET. One of those areas is Configuration.\r\n\r\nConfiguration holds our secrets, connection strings, application settings, and other data. We have checked it in, stored it in a web.config and transformed it in a pipeline. Today there are a variety of ways to configure our applications securely.\r\n\r\nThis session will cover:\r\nStrongly typed configuration\r\nConfiguration providers - JSON, XML, INI files; Environment variables; Command Line;Azure App Config; Key Vault\r\nDependency Injection\r\nThe Options Pattern",
+        "startsAt": "2023-11-16T16:00:00",
+        "endsAt": "2023-11-16T16:30:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "2ebd8578-298f-45ae-b71b-dc076037b080",
+            "name": "Chris Ayers"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201278,
+                "name": "Deeper .NET"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "526696",
+        "title": "Hardware Intrinsics in .NET",
+        "description": "Learn about the latest advancements around hardware intrinsics and vectorization in .NET, how you can take advantage of them either implicitly or explicitly, and how you can best support the wide variety of platforms (x64, Arm64, Wasm, etc) while still getting the best perf.\r\n\r\n",
+        "startsAt": "2023-11-16T16:30:00",
+        "endsAt": "2023-11-16T17:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "e3200ef8-d1cd-4b0c-a034-6c77557fecd8",
+            "name": "Tanner Gooding"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201270,
+                "name": ".NET Runtime"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38790,
+        "room": "Room 1",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      },
+      {
+        "questionAnswers": [],
+        "id": "525631",
+        "title": "All About C# Source Generators",
+        "description": "While using Reflection is still a necessary tool for any developer. The Roslyn source generators are a compelling way to write code while your users are writing their code. In this talk, Shawn will build a source generator from scratch to show you all the gory details.",
+        "startsAt": "2023-11-16T16:30:00",
+        "endsAt": "2023-11-16T17:00:00",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "e0d63ad2-9848-425f-a130-10b610726dec",
+            "name": "Shawn Wildermuth"
+          }
+        ],
+        "categories": [
+          {
+            "id": 57686,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 201242,
+                "name": "C#"
+              },
+              {
+                "id": 201278,
+                "name": "Deeper .NET"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 57690,
+            "name": "Day",
+            "categoryItems": [
+              {
+                "id": 201303,
+                "name": "3"
+              }
+            ],
+            "sort": 40
+          }
+        ],
+        "roomId": 38791,
+        "room": "Room 2",
+        "liveUrl": null,
+        "recordingUrl": null,
+        "status": "Accepted"
+      }
+    ],
+    "isDefault": false
+  }
+]

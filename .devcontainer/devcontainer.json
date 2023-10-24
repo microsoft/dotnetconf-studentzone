@@ -4,8 +4,7 @@
     "dockerfile": "./Dockerfile",
     "context": ".",
     "args": {
-      // Use this for Razor support, until OmniSharp supports .NET 6 properly
-      "VARIANT": "6.0-focal"
+      "VARIANT": "8.0"
     }
   },
 
@@ -22,27 +21,36 @@
   ],
 
   "features": {
+    // Uncomment the below to install .NET SDK
+    "ghcr.io/devcontainers/features/dotnet:latest": {
+      "version": "latest",
+      "additionalVersions": "lts"
+    },
+
     // Uncomment the below to install Azure CLI
-    "ghcr.io/devcontainers/features/azure-cli:1": {
-      "version": "latest"
+    "ghcr.io/devcontainers/features/azure-cli:latest": {
+      "version": "latest",
+      "extensions": "account,alias,deploy-to-azure,functionapp,subscription,webapp"
     },
 
     // Uncomment the below to install GitHub CLI
-    "ghcr.io/devcontainers/features/github-cli:1": {
+    "ghcr.io/devcontainers/features/github-cli:latest": {
       "version": "latest"
     },
 
     // Uncomment the below to install node.js
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "16",
+    "ghcr.io/devcontainers/features/node:latest": {
+      "version": "lts",
       "nodeGypDependencies": true,
       "nvmInstallPath": "/usr/local/share/nvm"
     },
 
     // Install common utilities
-    "ghcr.io/devcontainers/features/common-utils:1": {
+    "ghcr.io/devcontainers/features/common-utils:latest": {
       "installZsh": true,
+      "configureZshAsDefaultShell": false,
       "installOhMyZsh": true,
+      "installOhMyZshConfig": true,
       "upgradePackages": true,
       "username": "vscode",
       "uid": "1000",
@@ -61,26 +69,19 @@
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
         // Recommended extensions - GitHub
-        "cschleiden.vscode-github-actions",
+        "GitHub.vscode-github-actions",
         "GitHub.vscode-pull-request-github",
 
         // Recommended extensions - Azure
-        "Azurite.azurite",
         "ms-azuretools.vscode-bicep",
 
         // Recommended extensions - Collaboration
-        "eamodio.gitlens",
         "EditorConfig.EditorConfig",
-        // "MS-vsliveshare.vsliveshare-pack",
         "streetsidesoftware.code-spell-checker",
 
         // Recommended extensions - .NET
         "Fudge.auto-using",
         "jongrant.csharpsortusings",
-        "kreativ-software.csharpextensions",
-
-        // Recommended extensions - Power Platform
-        // "microsoft-IsvExpTools.powerplatform-vscode",
 
         // Recommended extensions - Markdown
         "bierner.github-markdown-preview",
@@ -91,7 +92,8 @@
 
         // Required extensions
         "GitHub.copilot",
-        "ms-dotnettools.csharp",
+        "GitHub.copilot-chat",
+        "ms-dotnettools.csdevkit",
         "ms-vscode.PowerShell",
         "ms-vscode.vscode-node-azure-pack",
         "VisualStudioExptTeam.vscodeintellicode",
@@ -106,40 +108,36 @@
       ],
       "settings": {
         // Uncomment if you want to use zsh as the default shell
-        "terminal.integrated.defaultProfile.linux": "zsh",
-        "terminal.integrated.profiles.linux": {
-          "zsh": {
-            "path": "/usr/bin/zsh"
-          }
-        },
+        // "terminal.integrated.defaultProfile.linux": "zsh",
+        // "terminal.integrated.profiles.linux": {
+        //   "zsh": {
+        //     "path": "/usr/bin/zsh"
+        //   }
+        // },
 
         // Uncomment if you want to use CaskaydiaCove Nerd Font as the default terminal font
-        "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+        // "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
 
         // Uncomment if you want to disable the minimap view
         "editor.minimap.enabled": false,
-
-        // Uncomment if you want to disable the welcome page of GitLens
-        "gitlens.showWelcomeOnInstall": false,
-        "gitlens.showWhatsNewAfterUpgrades": false,
 
         // Recommended settings for the explorer pane
         "explorer.sortOrder": "type",
         "explorer.fileNesting.enabled": true,
         "explorer.fileNesting.patterns": {
-          "*.bicep": "${capture}.json",
-          "*.razor": "${capture}.razor.css",
+          "*.bicep": "${capture}.json, ${capture}.parameters.json",
+          "*.razor": "${capture}.razor.css, ${capture}.razor.cs",
           "*.js": "${capture}.js.map"
         }
       }
     }
   },
 
-  // Uncomment if you want to use bash in 'postCreateCommand' after the container is created
-  // "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
+  // Uncomment if you want to use bash in 'onCreateCommand' after the container is created
+  "onCreateCommand": "/bin/bash ./.devcontainer/on-create.sh > ~/on-create.log",
 
-  // Uncomment if you want to use zsh in 'postCreateCommand' after the container is created
-  "postCreateCommand": "/usr/bin/zsh ./.devcontainer/post-create.sh > ~/post-create.log",
+  // Uncomment if you want to use zsh in 'onCreateCommand' after the container is created
+  // "onCreateCommand": "/usr/bin/zsh ./.devcontainer/on-create.sh > ~/on-create.log",
 
   // Uncomment if you want to connect other than 'root'. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "vscode"

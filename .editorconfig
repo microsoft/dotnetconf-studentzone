@@ -17,5 +17,5 @@ indent_size = 2
 [*.{json,yaml,yml,xml}]
 indent_size = 2
 
-[*.{html,css,js}]
+[*.{html,css,js,ts,tsx}]
 indent_size = 2

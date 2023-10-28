@@ -11,29 +11,21 @@ using YouTubeSummariser.WebApp.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-var openAISettings = builder.Services.BuildServiceProvider()
-                            .GetService<IConfiguration>()
-                            .GetSection(OpenAISettings.Name)
-                            .Get<OpenAISettings>();
-builder.Services.AddSingleton(openAISettings);
-
-var promptSettings = builder.Services.BuildServiceProvider()
-                            .GetService<IConfiguration>()
-                            .GetSection(PromptSettings.Name)
-                            .Get<PromptSettings>();
-builder.Services.AddSingleton(promptSettings);
-
-var endpoint = new Uri(openAISettings.Endpoint);
-var credential = new AzureKeyCredential(openAISettings.ApiKey);
-var client = new OpenAIClient(endpoint, credential);
-builder.Services.AddScoped<OpenAIClient>(_ => client);
-
 builder.Services
+    .AddScoped<IYouTubeVideo, YouTubeVideo>()
+    .AddScoped<OpenAIClient>(p =>
+    {
+        var openAISettings = p.GetService<OpenAISettings>();
+        var endpoint = new Uri(openAISettings.Endpoint);
+        var credential = new AzureKeyCredential(openAISettings.ApiKey);
+        var openAIClient = new OpenAIClient(endpoint, credential);
+
+        return openAIClient;
+    })
+    .AddSingleton<OpenAISettings>(p => p.GetService<IConfiguration>().GetSection(OpenAISettings.Name).Get<OpenAISettings>())
+    .AddSingleton<PromptSettings>(p => p.GetService<IConfiguration>().GetSection(PromptSettings.Name).Get<PromptSettings>())
 
     .AddScoped<IYouTubeService, YouTubeService>()
-    .AddScoped<IOpenAIService, OpenAIService>()
-    .AddScoped<IYouTubeVideo, YouTubeVideo>()
     .AddHttpClient()
 
     .AddRazorComponents()

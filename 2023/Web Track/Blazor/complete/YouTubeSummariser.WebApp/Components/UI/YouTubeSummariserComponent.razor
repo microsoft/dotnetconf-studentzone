@@ -1,0 +1,73 @@
+﻿@using YouTubeSummariser.WebApp.Services
+@inject IYouTubeService YouTube
+@inject IJSRuntime JSR
+
+<div class="container">
+
+    <div class="form-group">
+        <label for="youtubeLink">YouTube Link:</label>
+        <input type="text" class="form-control" id="youtubeLink" @bind="youTubeLink" />
+    </div>
+
+    <div class="form-group">
+        <label for="videoLanguage">Video Language:</label>
+        <select class="form-control" id="videoLanguage" @bind="videoLanguage">
+            <option value="en">English</option>
+            <option value="ko">Korean</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="summaryLanguage">Summary Language:</label>
+        <select class="form-control" id="summaryLanguage" @bind="summaryLanguage">
+            <option value="en">English</option>
+            <option value="ko">Korean</option>
+        </select>
+    </div>
+
+    <button type="button" class="btn btn-primary" @onclick="Summarise">Summary</button>
+    <button type="button" class="btn btn-secondary" @onclick="Clear">Clear</button>
+
+    <div class="row">
+        <div class="mb-3">
+            <div id="progressBar" hidden="@summaryCompleted"></div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="summaryResult">Summary Result:</label>
+        <textarea class="form-control" id="summaryResult" rows="5" readonly>@summaryResult</textarea>
+    </div>
+
+</div>
+
+
+@code {
+    private string youTubeLink = string.Empty;
+    private string videoLanguage = "en";
+    private string summaryLanguage = "en";
+    private string summaryResult = string.Empty;
+    private bool summaryCompleted;
+
+    private async Task Summarise()
+    {
+        summaryCompleted = false;
+
+        await JSR.InvokeVoidAsync("YouTube.RenderProgressBar");
+
+        var videoId = YouTube.GetVideoId(youTubeLink);
+        var subtitle = await YouTube.GetVideoSubtitleAsync(youTubeLink, videoLanguage);
+        var summary = await YouTube.GetVideoSummaryAsync(subtitle, summaryLanguage);
+        summaryResult = summary;
+
+        summaryCompleted = true;
+    }
+
+    private void Clear()
+    {
+        youTubeLink = "";
+        videoLanguage = "en";
+        summaryLanguage = "en";
+        summaryResult = "";
+    }
+}

@@ -1,0 +1,6 @@
+dotnet new gitignore
+dotnet new editorconfig
+dotnet new globaljson
+dotnet new sln -n YouTubeSummariser
+dotnet new blazor -n YouTubeSummariser.WebApp -int Server -ai true
+dotnet sln add YouTubeSummariser.WebApp

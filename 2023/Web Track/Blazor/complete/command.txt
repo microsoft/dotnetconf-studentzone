@@ -1,0 +1,18 @@
+dotnet new gitignore
+dotnet new editorconfig
+dotnet new globaljson
+dotnet new sln -n YouTubeSummariser
+dotnet new blazor -n YouTubeSummariser.WebApp -int Server -ai true
+dotnet sln add YouTubeSummariser.WebApp
+
+dotnet add YouTubeSummariser.WebApp package Azure.AI.OpenAI --prerelease
+dotnet add YouTubeSummariser.WebApp package Aliencube.YouTubeSubtitlesExtractor
+
+mkdir JSInterop
+cd JSInterop
+npm init
+npm install @fluentui/react react react-dom
+npm install webpack webpack-cli babel-loader @babel/core --save-dev
+
+scripts:
+  "build": "webpack --mode production"

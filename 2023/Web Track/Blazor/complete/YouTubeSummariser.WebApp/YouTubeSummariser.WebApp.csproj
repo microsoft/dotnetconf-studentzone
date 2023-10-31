@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <JsInteropRoot>JsInterop/</JsInteropRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(JsInteropRoot)node_modules/**</DefaultItemExcludes>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aliencube.YouTubeSubtitlesExtractor" Version="1.0.2" />
+    <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="$(JsInteropRoot)**" />
+    <None Remove="$(JsInteropRoot)**" />
+    <None Include="$(JsInteropRoot)**" Exclude="$(JsInteropRoot)node_modules/**" />
+  </ItemGroup>
+
+  <Target Name="PublishRunWebpack" AfterTargets="Build">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(JsInteropRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(JsInteropRoot)" Command="npm run build" />
+  </Target>
+
+</Project>

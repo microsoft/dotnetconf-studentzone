@@ -49,6 +49,12 @@ The [**official Godot docs**](https://docs.godotengine.org/en/stable/index.html)
 - [Godot Engine - .NET](https://godotengine.org/download) - **Important to grab the '.NET' version!**
 - [`Mikeware.GoDotNet.BlankTemplate`](https://github.com/Mikeware/GoDotNet.BlankTemplate) - Minimal template with debugging settings configured to connect to Godot from VS Code or Visual Studio.
 
+## Additional Content
+
+Michael is also presenting a follow-on talk at [.NET Conf on Thursday, November 16th at 2PM PST](https://dotnetconf.com/agenda#:~:text=Use%20C%23%20with%20Godot%20to%20make%20Games!) - **Use C# with Godot to make Games!** That talk will pick-up just after this one and demonstrate how to further connect Godot game objects to your C# classes with `[Export]` and use the [MVVM Toolkit](https://aka.ms/toolkit/dotnet)'s `Messenger` class for cross-object messaging as an alternative to Godot's Signals.
+
+The code included here has been annotated with additional comments afterwards. It also includes an example 'fix' for the `Paddle` collision issue when using `MoveAndSlide()` - we didn't have time to comment on this during the session. We'll use this issue as an introductory discussion to the project for the above follow-on session.
+
 ## Speaker(s)
 
 **Michael A. Hawker** is a Senior Software Engineer at Microsoft. In his spare time, he loves tinkering with board and video game design and programming.

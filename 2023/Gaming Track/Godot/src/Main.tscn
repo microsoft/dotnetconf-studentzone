@@ -1,0 +1,48 @@
+[gd_scene load_steps=8 format=3 uid="uid://h8upxmc6j4uv"]
+
+[ext_resource type="Texture2D" uid="uid://dafepn7jx0574" path="res://icon.svg" id="1_4nwa5"]
+[ext_resource type="Script" path="res://Main.cs" id="1_ji8xp"]
+[ext_resource type="Script" path="res://Ball.cs" id="2_q1rcx"]
+[ext_resource type="PackedScene" uid="uid://pe6ooqmvb6iv" path="res://Paddle.tscn" id="3_ky01c"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_7k7ll"]
+friction = 0.0
+bounce = 1.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jdrll"]
+size = Vector2(40, 40)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2ryro"]
+size = Vector2(1321, 58)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ji8xp")
+
+[node name="Ball" type="RigidBody2D" parent="."]
+position = Vector2(582, 343)
+physics_material_override = SubResource("PhysicsMaterial_7k7ll")
+linear_damp_mode = 1
+script = ExtResource("2_q1rcx")
+
+[node name="Icon" type="Sprite2D" parent="Ball"]
+scale = Vector2(0.320313, 0.320313)
+texture = ExtResource("1_4nwa5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ball"]
+shape = SubResource("RectangleShape2D_jdrll")
+
+[node name="LeftPaddle" parent="." instance=ExtResource("3_ky01c")]
+position = Vector2(90, 332)
+
+[node name="RightPaddle" parent="." instance=ExtResource("3_ky01c")]
+position = Vector2(1063, 331)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(583.5, -29)
+shape = SubResource("RectangleShape2D_2ryro")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(583.5, 676)
+shape = SubResource("RectangleShape2D_2ryro")

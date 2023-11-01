@@ -1,0 +1,4 @@
+{
+    "dotnet.defaultSolution": "GodotPaddle.sln",
+    "godot_tools.gdscript_lsp_server_port": 6005
+}

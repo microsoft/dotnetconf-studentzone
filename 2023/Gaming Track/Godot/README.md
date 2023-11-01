@@ -25,15 +25,19 @@ In this session, we will discuss how to get started with Godot and C# from the g
 
 The template expects an `Environment Variable` to help locate the Godot installation on your machine, _this is optional_. However, if you're not familiar with this topic and looking for more information, then [this is a good article from TheWindowsClub](https://www.thewindowsclub.com/system-user-environment-variables-windows).
 
-The Godot docs have plenty of information! We cover a lot in a short time during the session. So, if you're looking for more details on some of what we've covered, then look here:
+The [**official Godot docs**](https://docs.godotengine.org/en/stable/index.html) have plenty of information! We cover a lot in a short time during the session. So, if you're looking for more details on some of what we've covered, then look at these pages there:
 
-- [Introduction to Godot — Godot Engine documentation](https://docs.godotengine.org/en/latest/getting_started/introduction/introduction_to_godot.html)
-- [Nodes and Scenes — Godot Engine documentation](https://docs.godotengine.org/en/stable/getting_started/step_by_step/nodes_and_scenes.html)
-- [Physics Introduction — Godot Engine documentation](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html)
-- [Physics Material — Godot Engine documentation](https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html)
+- [Introduction to Godot](https://docs.godotengine.org/en/latest/getting_started/introduction/introduction_to_godot.html)
+- [Nodes and Scenes](https://docs.godotengine.org/en/stable/getting_started/step_by_step/nodes_and_scenes.html)
+- [Physics Introduction](https://docs.godotengine.org/en/stable/tutorials/physics/physics_introduction.html)
+  - [Physics and Idle Processing](https://docs.godotengine.org/en/stable/tutorials/scripting/idle_and_physics_processing.html)
+  - [Physics Material](https://docs.godotengine.org/en/stable/classes/class_physicsmaterial.html)
   - [Linear Damp explanation](https://docs.godotengine.org/en/latest/classes/class_projectsettings.html#class-projectsettings-property-physics-2d-default-linear-damp)
-- [Input Handling — Godot Engine documentation](https://docs.godotengine.org/en/stable/tutorials/inputs/index.html)
+  - [CharacterBody2D](https://docs.godotengine.org/en/stable/tutorials/physics/using_character_body_2d.html)
+- [Input Handling](https://docs.godotengine.org/en/stable/tutorials/inputs/index.html)
   - [Input.GetVector method](https://docs.godotengine.org/en/stable/classes/class_input.html#class-input-method-get-vector)
+  - [Input Actions/Mapping](https://docs.godotengine.org/en/stable/getting_started/first_3d_game/02.player_input.html#creating-input-actions)
+- [C# in Godot](https://docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/index.html)
 
 ## Prerequisites
 

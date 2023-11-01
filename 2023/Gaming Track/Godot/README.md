@@ -4,6 +4,8 @@
 
 Let’s start from the ground up and get familiar with Godot to recreate a classic game. We’ll add two paddles, a ball, and some walls and bounce around!
 
+![GodotPaddle game showing two paddles and a ball](GodotPaddle.png)
+
 ## Link to Session Recording
 
 *Session Recording will be updated after the event*

@@ -14,20 +14,19 @@ In this session, we will discuss *insert your topic*.
 
 | **Goal**              | *describe the goal of the workshop*                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *describe your learning goals*                                        |
-| **What you'll need**          | *link all the necessary tooling, subscriptions, and downloads needed* |
-| **Technology used**               | *list product focus, e.g. .NET MAUI* |
-| **Follow along**                  | *link to starter code if applicable, else delete this section*                                                                |
-| **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
-| **Slides** | [Powerpoint](slides.pptx)                         
+| **What will you learn**       | *How to create scalable backends for your game using ASP.NET Core*|
+| **What you'll need**          | *[Unity Engine & Unity Hub](https://store.unity.com/download) [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) [Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall) [Sql Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)* |
+| **Technology used**               | *Unity, C#, ASP.NET Core, Entity Framework, Docker, Sql Server, Azure Data Studio* |
+| **Just want to try the app or see the solution?** | *[COMPLETE: Game Portal API Backend Repository](https://github.com/Mwenda-Eric/Game-Portal-API-DotNet/tree/main/GamePortalAPI)*                          |
+| **Final Walkthrough & Gameplay Video** | [Gameplay Video](link-will-be-updated)                         
 
 ## Pre-Learning
 
-*optional, add pre-learning resources (MS Learn modules, docs, etc)*
+*[Creating A web API Using ASP.NET Core - Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-7.0&tabs=visual-studio)*
 
 ## Prerequisites
 
-*any installations that will be helpful, any hardware or software needed*
+*Unity Engine Installed, Visual Studio, ASP.NET Core, Sql Server and Entity Framework Configured*
 
 ## Speaker(s)
 

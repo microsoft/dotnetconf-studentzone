@@ -132,6 +132,13 @@
       }
     }
   },
+	"containerEnv": {
+      "AZURE_OPENAI_CHAT_DEPLOYMENT": "",
+      "AZURE_OPENAI_EMBEDDING_DEPLOYMENT": "",
+		  "AZURE_OPENAI_ENDPOINT": "",
+      "AZURE_OPENAI_KEY": "",
+		  "QDRANT_HOST": ""
+  },
 
   // Uncomment if you want to use bash in 'onCreateCommand' after the container is created
   "onCreateCommand": "/bin/bash ./.devcontainer/on-create.sh > ~/on-create.log",

@@ -18,16 +18,16 @@ In this session, we will discuss *insert your topic*.
 | **What you'll need**          | *link all the necessary tooling, subscriptions, and downloads needed* |
 | **Technology used**               | *list product focus, e.g. .NET MAUI* |
 | **Follow along**                  | *link to starter code if applicable, else delete this section*                                                                |
-| **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
-| **Slides** | [Powerpoint](slides.pptx)                         
+| **Just want to try the app or see the solution?** | *[Finish](./Finish)*                          |
+| **Slides** | [Powerpoint](2023-dotnetconf-studentzone-mauislides.pptx) |
 
 ## Pre-Learning
 
-*optional, add pre-learning resources (MS Learn modules, docs, etc)*
+If you'd like to learn more about .NET MAUI before the workshop, you can look at some of our [learning resources](https://learn.microsoft.com/en-us/dotnet/maui/get-started/resources).
 
 ## Prerequisites
 
-*any installations that will be helpful, any hardware or software needed*
+Follow the [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?tabs=vswin) to set up either Visual Studio for Windows or Visual Studio Code for .NET MAUI development.
 
 ## Speaker(s)
 

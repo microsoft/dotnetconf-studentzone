@@ -10,24 +10,24 @@ What if you could write one app, but it runs everywhere?! Learn how to get start
 
 ## Overview
 
-In this session, we will discuss *insert your topic*.
+In this session, we will discuss .NET's way to run C# and XAML code on Android, iOS, macOS, and Windows. We'll quickly explain what [.NET MAUI](github.com/dotnet/maui) is, how a project is typically structured, and get you started with our sample workshop so you can learn more at your own pace!
 
-| **Goal**              | *describe the goal of the workshop*                                    |
+| **Goal**              | *At the end of the workshop, you'll be able to run your .NET MAUI app on different platforms and have a better understanding of how the framework works!*                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
-| **What will you learn**       | *describe your learning goals*                                        |
-| **What you'll need**          | *link all the necessary tooling, subscriptions, and downloads needed* |
-| **Technology used**               | *list product focus, e.g. .NET MAUI* |
-| **Follow along**                  | *link to starter code if applicable, else delete this section*                                                                |
-| **Just want to try the app or see the solution?** | *an optional link to the completed project sample app or solution folder*                          |
-| **Slides** | [Powerpoint](slides.pptx)                         
+| **What will you learn**       | *You'll get started writing .NET MAUI code and deploying your app to desktop and mobile platforms*                                        |
+| **What you'll need**          | *See #Prerequisites section* |
+| **Technology used**               | *.NET MAUI with .NET 8, Visual Studio or Visual Studio Code* |
+| **Follow along**                  | *[Start](./Start/)*                                                                |
+| **Just want to try the app or see the solution?** | *[Finish](./Finish)*                          |
+| **Slides** | [Powerpoint](2023-dotnetconf-studentzone-mauislides.pptx) |
 
 ## Pre-Learning
 
-*optional, add pre-learning resources (MS Learn modules, docs, etc)*
+If you'd like to learn more about .NET MAUI before the workshop, you can look at some of our [learning resources](https://learn.microsoft.com/en-us/dotnet/maui/get-started/resources).
 
 ## Prerequisites
 
-*any installations that will be helpful, any hardware or software needed*
+Follow the [.NET MAUI Documentation](https://learn.microsoft.com/en-us/dotnet/maui/get-started/installation?tabs=vswin) to set up either Visual Studio for Windows or Visual Studio Code for .NET MAUI development.
 
 ## Speaker(s)
 

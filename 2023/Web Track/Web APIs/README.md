@@ -6,7 +6,7 @@ ASP.NET Minimal API is a delightful way to create a HTTP backend for any applica
 
 ## Link to Session Recording
 
-_Session Recording will be updated after the event_
+[Event Recording](https://aka.ms/netconf23/studentstream)
 
 ## Overview
 
@@ -19,7 +19,7 @@ In this session, we will discuss building a Single Page App, aka a SPA, that use
 | **Technology used**                               | [ASP.NET Minimal API](https://dotnet.microsoft.com/apps/aspnet), [React](https://react.dev)       |
 | **Follow along**                                  | [`start`](./start)                                                                                |
 | **Just want to try the app or see the solution?** | [`finished`](./finished)                                                                          |
-| **Slides**                                        | [Powerpoint](slides.pptx)                                                                         |
+| **Slides**                                        | [Powerpoint](2023-dotnet-conf-student-zone-minimal-api-react.pptx)                                                                         |
 
 ## Prerequisites
 

@@ -6,7 +6,7 @@ We'll use Unity 3D, .NET, and focus on UDP Client-Server networking for drone co
 
 ## Link to Session Recording
 
-*Session Recording will be updated after the event*
+[Event Recording](https://aka.ms/netconf23/studentstream)
 
 ## Overview
 

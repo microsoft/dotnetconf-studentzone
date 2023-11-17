@@ -1,11 +1,18 @@
 ![BannerImage](images/banner.png)
 
-# November 13 @ 3:00pm UTC
-The 2023 .NET Conf Student Zone is coming! **November 13, 3:00pm UTC**, tune in to the [.NET YouTube Channel](https://aka.ms/dotnet/youtube) to watch the event.
+# Watch the [event recording](https://aka.ms/netconf23/studentstream)
 
-✅Register: [https://aka.ms/netconf23/registration](https://aka.ms/netconf23/registration)
+The 2023 .NET Conf Student Zone live event has ended. But, you can still watch the event recordings and check out our other learning resources! 
+
+🚀Watch the event recording: [https://aka.ms/netconf23/studentstream](https://aka.ms/netconf23/studentstream)
+
+✍Leave your feedback: [https://aka.ms/netconf23/studentfeedback](https://aka.ms/netconf23/studentfeedback)
 
 💻Official Event Page: [https://aka.ms/netconf23/studentpage](https://aka.ms/netconf23/studentpage)
+
+🎥.NET 8 beginner videos: [https://aka.ms/dotnetvideos](https://aka.ms/dotnetvideos)
+
+🏆Foundational C# Certification with freeCodeCamp: [https://aka.ms/csharp-certification](https://aka.ms/csharp-certification)
 
 
 ## 💡What is the .NET Conf Student Zone?
@@ -24,14 +31,14 @@ We have free content to get you started using C# and .NET!
 
 | | Session Title | Topic | Speaker(s) | Session Code | Video |
 | --- |-------|----------|---------|-----------|---|
-| 0 | Welcome to the Student Zone!| Introduction  |  | *Coming soon* | *Coming soon* |
-| 1️ | Building Your Own Course Assistant with AI | Artificial Intelligence, *Semantic Kernel*  | Luis Quintanilla, Kinfey Lo | *Coming soon* | *Coming soon* |
-| 2 | Minimal API + SPA, a perfect match | Web Back-end, *Minimal APIs*  | Aaron Powell | *Coming soon* | *Coming soon* |
-| 3 | Building an intelligent app with Blazor and Azure OpenAI | Web Front-end, *Blazor*  | Justin Yoo | *Coming soon* | *Coming soon* |
-| 4 | Get started building mobile & desktop apps with .NET | Mobile, *.NET MAUI*  | Becky Buckler, Maddy Montaquila | *Coming soon* | *Coming soon* |
-| 5 | Games in Godot! Let’s make a classic Paddle game with C#! | Gaming, *Unity, Godot*  | Michael Hawker | *Coming soon* | *Coming soon* |
-| 6 | .NET Backend Mastery for Game Development | Gaming, *Unity*  | Eric Mwenda | *Coming soon* | *Coming soon* |
-| 7 | Coding a Drone Using .NET and ChatGPT AI & Flying in MR! | Gaming, *Unity, Mixed Reality*  | Zaid Zaim | *Coming soon* | *Coming soon* |
+| 0 | Welcome to the Student Zone!| Introduction  |  | *None* | [Event Recording](https://aka.ms/netconf23/studentstream) |
+| 1️ | Building Your Own Course Assistant with AI | Artificial Intelligence, *Semantic Kernel*  | Luis Quintanilla, Kinfey Lo | [AI](AI%20Track/slides.pdf) | [Event Recording](https://aka.ms/netconf23/studentstream) |
+| 2 | Minimal API + SPA, a perfect match | Web Back-end, *Minimal APIs*  | Aaron Powell | [Web Back-end](Web%20Track/Web%20APIs/2023-dotnet-conf-student-zone-minimal-api-react.pptx) | [Event Recording](https://aka.ms/netconf23/studentstream) |
+| 3 | Building an intelligent app with Blazor and Azure OpenAI | Web Front-end, *Blazor*  | Justin Yoo | [Web Front-end](Web%20Track/Blazor/slides.pdf) | [Event Recording](https://aka.ms/netconf23/studentstream) |
+| 4 | Get started building mobile & desktop apps with .NET | Mobile, *.NET MAUI*  | Becky Buckler, Maddy Montaquila | [Mobile](Mobile%20Track/2023-dotnetconf-studentzone-mauislides.pptx) | [Event Recording](https://aka.ms/netconf23/studentstream) |
+| 5 | Games in Godot! Let’s make a classic Paddle game with C#! | Gaming, *Unity, Godot*  | Michael Hawker | [Godot](Gaming%20Track/Godot/slides.pdf) | [Event Recording](https://aka.ms/netconf23/studentstream) |
+| 6 | .NET Backend Mastery for Game Development | Gaming, *Unity*  | Eric Mwenda | [.NET Backend](Gaming%20Track/Unity%20Gaming%20Backend/README.md) | [Event Recording](https://aka.ms/netconf23/studentstream) |
+| 7 | Coding a Drone Using .NET and ChatGPT AI & Flying in MR! | Gaming, *Unity, Mixed Reality*  | Zaid Zaim | [Unity Mixed Reality](Gaming%20Track/Mixed%20Reality/README.md) | [Event Recording](https://aka.ms/netconf23/studentstream) |
 
 ## 🔎Using this repository
 *You can use this repository locally or within a GitHub Codespace.*

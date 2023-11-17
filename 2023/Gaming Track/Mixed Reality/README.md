@@ -6,7 +6,7 @@ We'll use Unity 3D, .NET, and focus on UDP Client-Server networking for drone co
 
 ## Link to Session Recording
 
-*Session Recording will be updated after the event*
+[Event Recording](https://aka.ms/netconf23/studentstream)
 
 ## Overview
 
@@ -18,7 +18,7 @@ In this session, we will discuss *How you can get started developing a Mixed Rea
 | **What you'll need**          | *Unity 3D (2020.3.38f), MRTK3 access to ChatGPT (Checkout below some of the learning rescources to help you get started)* |
 | **Technology used**               | *HoloLens 2 to fly the drone, Development environment for Mixed Reality: Unity 3D and MRTK, ChatGPT your friend and co-pilot in case you have challenges!* |                                                                |
 | **Just want to try the app or see the solution?** | *[Checkout project repo](https://github.com/hololux/MixedReality-Tello-drone)!*                          |
-| **Slides** | [Powerpoint](slides.pptx)                         
+| **Slides** | [Powerpoint](slides.pdf)                         
 
 ## Pre-Learning
 - [Introduction to mixed reality - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/intro-to-mixed-reality/)

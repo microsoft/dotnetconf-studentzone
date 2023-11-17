@@ -6,13 +6,11 @@ Dive deep into the world of .NET and discover its unparalleled capabilities in c
 
 ## Link to Session Recording
 
-*Session Recording will be updated after the event*
+[Event Recording](https://aka.ms/netconf23/studentstream)
 
 ## Overview
 
-In this session, we will discuss *insert your topic*.
-
-| **Goal**              | *describe the goal of the workshop*                                    |
+| **Goal**              |                                     |
 | ----------------------------- | --------------------------------------------------------------------- |
 | **What will you learn**       | *How to create scalable backends for your game using ASP.NET Core*|
 | **What you'll need**          | *[Unity Engine & Unity Hub](https://store.unity.com/download) [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) [Azure Data Studio](https://learn.microsoft.com/en-us/azure-data-studio/download-azure-data-studio?tabs=win-install%2Cwin-user-install%2Credhat-install%2Cwindows-uninstall%2Credhat-uninstall) [Sql Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)* |

@@ -6,7 +6,7 @@ What if you could write one app, but it runs everywhere?! Learn how to get start
 
 ## Link to Session Recording
 
-*Session Recording will be updated after the event*
+[Event Recording](https://aka.ms/netconf23/studentstream)
 
 ## Overview
 

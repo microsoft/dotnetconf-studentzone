@@ -22,16 +22,16 @@ We have free content to get you started using C# and .NET!
 
 ## ⌚Agenda
 
-| | Session Title | Topic | Speaker(s) | Session Code | Video |
-| --- |-------|----------|---------|-----------|---|
-| 0 | Welcome to the Student Zone!| Introduction  |  | *Coming soon* | *Coming soon* |
-| 1️ | Building Your Own Course Assistant with AI | Artificial Intelligence, *Semantic Kernel*  | Luis Quintanilla, Kinfey Lo | *Coming soon* | *Coming soon* |
-| 2 | Minimal API + SPA, a perfect match | Web Back-end, *Minimal APIs*  | Aaron Powell | *Coming soon* | *Coming soon* |
-| 3 | Building an intelligent app with Blazor and Azure OpenAI | Web Front-end, *Blazor*  | Justin Yoo | *Coming soon* | *Coming soon* |
-| 4 | Get started building mobile & desktop apps with .NET | Mobile, *.NET MAUI*  | Becky Buckler, Maddy Montaquila | *Coming soon* | *Coming soon* |
-| 5 | Games in Godot! Let’s make a classic Paddle game with C#! | Gaming, *Unity, Godot*  | Michael Hawker | *Coming soon* | *Coming soon* |
-| 6 | .NET Backend Mastery for Game Development | Gaming, *Unity*  | Eric Mwenda | *Coming soon* | *Coming soon* |
-| 7 | Coding a Drone Using .NET and ChatGPT AI & Flying in MR! | Gaming, *Unity, Mixed Reality*  | Zaid Zaim | *Coming soon* | *Coming soon* |
+| | Session Title | Topic | Speaker(s) | Session Code | Video | Slides |
+| --- |-------|----------|---------|-----------|---|---|
+| 0 | Welcome to the Student Zone!| Introduction  |  | *None* | [Event Recording](https://aka.ms/netconf23/studentstream) | [Slides](/2023/Intro%20Deck.pptx) |
+| 1️ | Building Your Own Course Assistant with AI | Artificial Intelligence, *Semantic Kernel*  | Luis Quintanilla, Kinfey Lo | [AI](AI%20Track/slides.pdf) | [Event Recording](https://aka.ms/netconf23/studentstream) | [AI Slides](/2023/AI%20Track/slides.pdf) |
+| 2 | Minimal API + SPA, a perfect match | Web Back-end, *Minimal APIs*  | Aaron Powell | [Web Back-end](Web%20Track/Web%20APIs/2023-dotnet-conf-student-zone-minimal-api-react.pptx) | [Event Recording](https://aka.ms/netconf23/studentstream) | [Web Back-end Slides](/2023/Web%20Track/Web%20APIs/2023-dotnet-conf-student-zone-minimal-api-react.pptx) |
+| 3 | Building an intelligent app with Blazor and Azure OpenAI | Web Front-end, *Blazor*  | Justin Yoo | [Web Front-end](Web%20Track/Blazor/slides.pdf) | [Event Recording](https://aka.ms/netconf23/studentstream) | [Web Front-end Slides](/2023/Web%20Track/Blazor/slides.pdf) |
+| 4 | Get started building mobile & desktop apps with .NET | Mobile, *.NET MAUI*  | Becky Buckler, Maddy Montaquila | [Mobile](Mobile%20Track/2023-dotnetconf-studentzone-mauislides.pptx) | [Event Recording](https://aka.ms/netconf23/studentstream) | [Mobile Slides](/2023/Mobile%20Track/2023-dotnetconf-studentzone-mauislides.pptx) |
+| 5 | Games in Godot! Let’s make a classic Paddle game with C#! | Gaming, *Unity, Godot*  | Michael Hawker | [Godot](Gaming%20Track/Godot/slides.pdf) | [Event Recording](https://aka.ms/netconf23/studentstream) | [Gaming Godot Slides](/2023/Gaming%20Track/Godot/slides.pdf) |
+| 6 | .NET Backend Mastery for Game Development | Gaming, *Unity*  | Eric Mwenda | [.NET Backend](Gaming%20Track/Unity%20Gaming%20Backend/README.md) | [Event Recording](https://aka.ms/netconf23/studentstream) | [Gaming .NET Backend Slides](/2023/Gaming%20Track/Unity%20Gaming%20Backend) |
+| 7 | Coding a Drone Using .NET and ChatGPT AI & Flying in MR! | Gaming, *Unity, Mixed Reality*  | Zaid Zaim | [Unity Mixed Reality](Gaming%20Track/Unity%20Gaming%20Backend/README.md) | [Event Recording](https://aka.ms/netconf23/studentstream) | [Gaming Mixed Reality Slides](/2023/Gaming%20Track/Mixed%20Reality/slides.pdf) |
 
 ## 🔎Using this repository
 *You can use this repository locally or within a GitHub Codespace.*

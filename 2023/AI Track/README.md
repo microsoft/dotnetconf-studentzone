@@ -2,6 +2,10 @@
 
 This application uses AI to process transcripts from video lectures along with lesson notes. These are then used to help users chat with their data and study more efficiently. 
 
+## Video
+
+[Event Recording](https://aka.ms/netconf23/studentstream)
+
 ## Data Sources
 
 | Item | Transcript | Lesson |

@@ -8,7 +8,7 @@ Let’s start from the ground up and get familiar with Godot to recreate a class
 
 ## Link to Session Recording
 
-*Session Recording will be updated after the event*
+[Event Recording](https://aka.ms/netconf23/studentstream)
 
 ## Overview
 

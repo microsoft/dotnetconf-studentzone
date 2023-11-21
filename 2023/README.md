@@ -1,11 +1,18 @@
 ![BannerImage](images/banner.png)
 
-# November 13 @ 3:00pm UTC
-The 2023 .NET Conf Student Zone is coming! **November 13, 3:00pm UTC**, tune in to the [.NET YouTube Channel](https://aka.ms/dotnet/youtube) to watch the event.
+# Watch the [event recording](https://aka.ms/netconf23/studentstream)
 
-✅Register: [https://aka.ms/netconf23/registration](https://aka.ms/netconf23/registration)
+The 2023 .NET Conf Student Zone live event has ended. But, you can still watch the event recordings and check out our other learning resources! 
+
+🚀Watch the event recording: [https://aka.ms/netconf23/studentstream](https://aka.ms/netconf23/studentstream)
+
+✍Leave your feedback: [https://aka.ms/netconf23/studentfeedback](https://aka.ms/netconf23/studentfeedback)
 
 💻Official Event Page: [https://aka.ms/netconf23/studentpage](https://aka.ms/netconf23/studentpage)
+
+🎥.NET 8 beginner videos: [https://aka.ms/dotnetvideos](https://aka.ms/dotnetvideos)
+
+🏆Foundational C# Certification with freeCodeCamp: [https://aka.ms/csharp-certification](https://aka.ms/csharp-certification)
 
 
 ## 💡What is the .NET Conf Student Zone?

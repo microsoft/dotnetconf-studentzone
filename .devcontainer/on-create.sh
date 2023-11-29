@@ -23,6 +23,10 @@ dotnet dev-certs https --trust
 # Uncomment the below to install Azure Bicep CLI.
 az bicep install
 
+## GitHub Copilot CLI ##
+# Uncomment the below to install Azure Bicep CLI.
+gh extension install github/gh-copilot
+
 ## AZURE FUNCTIONS CORE TOOLS ##
 # Uncomment the below to install Azure Functions Core Tools. Make sure you have installed node.js
 npm i -g azure-functions-core-tools@4 --unsafe-perm true

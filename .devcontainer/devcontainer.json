@@ -23,8 +23,8 @@
   "features": {
     // Uncomment the below to install .NET SDK
     "ghcr.io/devcontainers/features/dotnet:latest": {
-      "version": "latest",
-      "additionalVersions": "lts"
+      "version": "6.0",
+      "additionalVersions": "7.0"
     },
 
     // Uncomment the below to install Azure CLI
@@ -132,12 +132,13 @@
       }
     }
   },
-	"containerEnv": {
-      "AZURE_OPENAI_CHAT_DEPLOYMENT": "",
-      "AZURE_OPENAI_EMBEDDING_DEPLOYMENT": "",
-		  "AZURE_OPENAI_ENDPOINT": "",
-      "AZURE_OPENAI_KEY": "",
-		  "QDRANT_HOST": ""
+
+  "containerEnv": {
+    "AZURE_OPENAI_CHAT_DEPLOYMENT": "",
+    "AZURE_OPENAI_EMBEDDING_DEPLOYMENT": "",
+    "AZURE_OPENAI_ENDPOINT": "",
+    "AZURE_OPENAI_KEY": "",
+    "QDRANT_HOST": ""
   },
 
   // Uncomment if you want to use bash in 'onCreateCommand' after the container is created
